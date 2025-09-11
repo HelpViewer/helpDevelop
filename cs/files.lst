@@ -1,1 +1,7 @@
-README.md|Overview
+README.md|Dokumentace pro vývojáře
+helpviewer.md|Projekt HelpViewer
+=latestApp|Stáhnout poslední verzi
+https://github.com/HelpViewer/HelpViewer|GitHub repozitář
+https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer|Kontejnerové obrazy
+https://discord.gg/J2SjcmqHSZ|Uživatelská skupina
+newLangViewer.md|Nový jazyk prohlížeče

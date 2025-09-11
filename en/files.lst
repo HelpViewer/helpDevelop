@@ -1,1 +1,7 @@
-README.md|Overview
+README.md|Developer Guide
+helpviewer.md|HelpViewer Project
+=latestApp|Download latest version
+https://github.com/HelpViewer/HelpViewer|GitHub repository
+https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer|Container images
+https://discord.gg/J2SjcmqHSZ|User group
+newLangViewer.md|New language for Viewer
