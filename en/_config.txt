@@ -1,0 +1,2 @@
+OverrideBookIcon-opened|&#128214;
+OverrideBookIcon-closed|&#128216;

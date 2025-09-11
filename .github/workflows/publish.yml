@@ -1,0 +1,155 @@
+name: Publishing
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      source_branch:
+        description: 'Source branch'
+        required: true
+        default: 'main'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.source_branch || github.ref }}
+          submodules: recursive
+
+      - name: Check if should be published
+        if: ${{ github.event_name != 'workflow_dispatch' && !contains(github.event.head_commit.message, '[pub]') }}
+        run: |
+          echo "[pub] string is missing in commit message, skipping ..."
+          exit 0
+
+      - name: Get Fulltext search index builder
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p _ftsbuilder
+          git clone https://x-access-token:${TOKEN}@github.com/HelpViewer/fulltextSearchDBBuilder.git _ftsbuilder
+
+      - name: Publish
+        id: pub
+        if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[pub]') }}
+        run: |
+          echo "::group::Copy _invariant to all language directories, package them"
+          mkdir -p _output
+          echo "Base folder for help ..."
+          FOLDER="_base"
+          if [ -d "$FOLDER" ] && [ "$(ls -A $FOLDER)" ]; then
+            cd "$FOLDER"
+            zip -r -9 ../_output/Help-.zip .
+            cd ..
+          else
+            echo "Directory $FOLDER not exists, skipping ..."
+          fi
+          echo "End : Base folder for help"
+          
+          SRC_DIR="_invariant"
+          mkdir -p $SRC_DIR
+          echo "::endgroup::"
+
+          langdirs=$(find . -maxdepth 1 -type d ! -name '.' ! -name '.*' ! -name '_*' -printf '%P\n' | paste -sd';')
+          
+          for dir in */ ; do
+            dir=${dir%/}
+            echo "::group::Language: $dir"
+
+            case "$dir" in
+              _*) continue ;;
+            esac
+
+            echo "Copying language invariant data ..."
+            cp -r -T -v "$SRC_DIR"/. "$dir"/
+            cd $dir
+            echo "_lang|$dir" >> _config.txt
+            echo "_langs|$langdirs" >> _config.txt
+            echo "::endgroup::"
+            [ -f "./fts-keywords.lst" ] && bash ../_ftsbuilder/indexBuild.sh "." "$dir"
+            echo "::group::Language: $dir - zipping directory"
+            echo "Zipping ..."
+            zip -r -9 ../_output/Help-$dir.zip .
+            cd ..
+            echo "Language: $dir done."
+            echo "::endgroup::"
+          done
+          echo "exists=true" >> $GITHUB_OUTPUT
+          echo "Bundling finished."
+
+      - name: Create tag
+        id: newtag
+        if: steps.pub.outputs.exists == 'true'
+        run: |
+          echo "::group::Version overview"
+          VERSION=$(awk '/^## /{print $2; exit}' CHANGELOG.md)
+          BODY=$(awk '/^## /{if (seen++) exit} seen' CHANGELOG.md | tail -n +2)
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "body<<EOF" >> $GITHUB_OUTPUT
+          echo "$BODY" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          echo "::endgroup::"
+          
+          TAG="$VERSION"
+
+          echo "::group::Old release delete"
+          RELEASE_ID=$(curl -s -H "Authorization: token $TOKEN" \
+            https://api.github.com/repos/$REPO/releases/tags/$TAG | jq -r .id)
+
+          if [ "$RELEASE_ID" != "null" ]; then
+            echo "Deleting release ID $RELEASE_ID"
+            curl -s -X DELETE -H "Authorization: token $TOKEN" \
+              https://api.github.com/repos/$REPO/releases/$RELEASE_ID
+          fi
+          echo "::endgroup::"
+          
+          echo "::group::Old tag delete"
+          if git ls-remote --tags origin | grep -q "$TAG"; then
+            git tag -d "$TAG" || true
+            git push origin ":refs/tags/$TAG" || true
+          fi
+          echo "::endgroup::"
+
+          echo "::group::New tag created"
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+          git tag $TAG
+          git push origin $TAG || true
+          echo "::endgroup::"
+                    
+      - name: Create release
+        id: crelease
+        if: steps.pub.outputs.exists == 'true'
+        uses: actions/create-release@v1
+        with:
+          tag_name: ${{ steps.newtag.outputs.tag }}
+          release_name: ${{ steps.newtag.outputs.tag }}
+          body: ${{ steps.newtag.outputs.body }}
+        env:
+          GITHUB_TOKEN: ${{ secrets._TOKEN }}
+
+      - name: Upload helps for languages
+        if: steps.pub.outputs.exists == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets._TOKEN }}
+          TAG: ${{ steps.newtag.outputs.tag }}
+          REPO: ${{ github.repository }}
+        run: |
+          cd _output
+          
+          find . -type f -name "*.zip" -print0 | while IFS= read -r -d '' file; do
+            echo "Language bundle to upload: $file"
+            unzip "$file" _config.txt
+            echo "_version|$TAG" >> _config.txt
+            echo "_prjname|$REPO" >> _config.txt
+            zip -u -o "$file" _config.txt
+            rm _config.txt
+            gh release upload "$TAG" "$file" --repo "$REPO" --clobber
+          done
