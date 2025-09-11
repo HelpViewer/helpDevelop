@@ -1,1 +1,7 @@
-Overview chapter|Overview||README.md
+HelpViewer Project|HelpViewer Project||helpviewer.md
+ 🌐 New language|New language||newLangViewer.md
+ 📜 Project policies|Project policies and documents||?d=https://raw.githubusercontent.com/HelpViewer/.github/master/
+ 🚀 Download latest version|Package for offline use and deployment||=latestApp
+ 🔗 GitHub|GitHub repository||https://github.com/HelpViewer/HelpViewer
+ 🐳 Container images|Container images||https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer
+ 💬 User group|Discord user group||https://discord.gg/J2SjcmqHSZ
