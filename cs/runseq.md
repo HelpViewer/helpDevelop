@@ -55,7 +55,7 @@ V dokumentaci se budou objevovat obecnější názvy popisů fází. Tyto pojmy 
    3. layout.htm, main.css
    4. js.lst
    5. STO_DATA:appmainNext0.js
-   6. STO_HELP:layout.htm (přepíše načtený soubor z bodu 3), main.css (zavede se jako rozšíření souboru z bodu 3)
+   6. STO_HELP:layout.htm, main.css (přepíše načtené soubory z bodu 3)
    7. STO_HELP:appmainNext.js, STO_DATA:appmainNext.js (načtení jednoho z nich, STO_HELP má přednost, pokud existuje)
    8. STO_HELP:plus.css (načtení)
    9. STO_HELP:plus.js (načtení)
