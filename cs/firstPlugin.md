@@ -8,7 +8,8 @@ Pro vývoj nového pluginu je potřeba provést následující:
 2. Do seznamu [pluginů][plugins] zaveďte plugin definičním řádkem: 
    - **[jméno třídy]** pokud má být plugin pouze načten (je předkem pro jiné pluginy, ale není určen k samostatné práci)
    - **[jméno třídy]:[jméno instance]** pokud má být plugin načten a je určen k zajištění funkcionality
-3. Do umístění **plugins-config/[jméno třídy]_[jméno instance].cfg** vložte konfigurační definice pro novou instanci.
+3. Do umístění **zip/plugins-config/[jméno třídy]_[jméno instance].cfg** vložte konfigurační definice pro novou instanci.
+4. Do umístění **zip/plugins/[jméno třídy].js** vložte zdrojový kód pluginu.
 
 ## Minimální plugin
 

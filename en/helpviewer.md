@@ -29,6 +29,7 @@ Repository names are starting with **help\***. Due to the naming of the project,
 | [helpUser][RhelpUser] | Help file with starting instruction, UI description for HelpViewer users. It describes basic work with Viewer. |
 | [helpAuthorsGuide][RhelpAuthorsGuide] | Help file for help file authors. Describes all necessary steps for creation and publishing of your own help file. |
 | [helpDevelop][RhelpDevelop] | (This) Help file (pages) for developers. Describes the platform itself and possibilities for extensions including developing of custom plugins. |
+| [helpInternalRef][RhelpInternalRef] | Help file for developers. Describes system objects and event parameters that are distributed within the system. |
 
 ## Version publishing
 
@@ -52,3 +53,4 @@ Repository names are starting with **help\***. Due to the naming of the project,
 [RhelpAuthorsGuide]: https://github.com/HelpViewer/helpAuthorsGuide
 [R.github]: https://github.com/HelpViewer/.github "Repository with basic information"
 [RPrism]: https://github.com/HelpViewer/prism
+[RhelpInternalRef]: https://github.com/HelpViewer/helpInternalRef "HelpViewer system object reference"

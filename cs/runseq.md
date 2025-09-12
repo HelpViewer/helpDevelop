@@ -39,7 +39,7 @@ V dokumentaci se budou objevovat obecnější názvy popisů fází. Tyto pojmy 
 | Zavádění | 0-2 | Základní sekvence zavádění aplikace. Komponenty jsou k dispozici jako nekomprimované soubory. |
 | Zavedení dat aplikace | 3 | Soubor **hvdata/data.zip** je načten do paměti knihovnou **JSZIP**. Pokud tato operace selže (CORS omezení), na obrazovce uvidíte zprávu **⚠ Do you see this message only?**. |
 | Zavedení dat aplikace 2 | 3.1-3.4 | Další aplikační data - kaskádové styly, layout UI - jsou načtena a připravena pro použití. |
-| Načtení dat nápovědy | 3.5-3.9 | Data z nápovědy rozšiřují nebo nahrazují standardní logiku. Obsah je nepovinný, popsaný v samostatné kapitole. |
+| Načtení dat nápovědy | 3.5-3.9 | Data z nápovědy rozšiřují nebo nahrazují standardní logiku. Obsah je nepovinný, popsaný v následující kapitole. |
 | Zavedení pluginů | 3.10 | V pořadí podle sekvence **STO_DATA:plugins.lst** jsou načteny do paměti, zavedeny a spuštěny instance uvedených pluginů - zásuvných modulů. |
 | Spouštění | 3.11 | Hlavní aplikační logika je načtena do paměti a spuštěna. |
 | Spouštění 2 | 3.12-3.14 | Data z nápovědy jsou aplikována a posílá se notifikační událost dokončení spuštění. Aplikace je připravena k práci. |

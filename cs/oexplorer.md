@@ -6,6 +6,8 @@ HelpViewer obsahuje plugin **puiButtonObjectExplorer**. Tento plugin slouží k 
 
 ⚠️ ObjectExplorer zásuvný modul je načten pouze pokud aplikace běží s **DEBUG_MODE = true** v **hvdata/appmain.js**. V opačném případě není k dispozici žádná funkcionalita ani výstup a aplikace vrací odpověď nenalezeno pro kapitoly, které modul obsluhuje.
 
+⚠️ Pokud plugin nebyl doposud v rámci relace aktivní, část funkcionality ze seznamu funkcí při použití odkazů nebude ještě k dispozici.
+
 ## Funkce
 
 Plugin zobrazuje například:
@@ -19,8 +21,6 @@ Plugin zobrazuje například:
 - Seznam konfiguračních voleb instance pluginu
 - Dokumentaci prvků, pokud je dostupná (zatím především v angličtině)
 - Informace o definovaných filtrech a vazbách v řetězci předání události: odesilatel -> obsluha.
-
-⚠️ Pokud plugin nebyl doposud v rámci relace aktivní, část funkcionality ze seznamu výše při použití odkazů nemusí být ještě k dispozici.
 
 Dále podporuje:
 

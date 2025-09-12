@@ -29,6 +29,7 @@ Repozitáře bývají pojmenovány **help\***. Vzhledem k pojmenování projektu
 | [helpUser][RhelpUser] | Nápověda pro uživatele prohlížeče. Popisuje základní práci s prohlížečem. |
 | [helpAuthorsGuide][RhelpAuthorsGuide] | (Tato) Nápověda pro autory nápověd. Popisuje vyškeré kroky, které jsou potřebné k vytvoření a vydání nápovědy. |
 | [helpDevelop][RhelpDevelop] | Nápověda pro vývojáře. Popisuje platformu a možnosti jejího rozšíření včetně psaní vlastních zásuvných modulů. |
+| [helpInternalRef][RhelpInternalRef] | Nápověda pro vývojáře. Popisuje objekty systému, a parametry událostí, které se mezi pluginy posílají. |
 
 ## Vydávání verzí
 
@@ -52,3 +53,4 @@ Repozitáře bývají pojmenovány **help\***. Vzhledem k pojmenování projektu
 [RhelpAuthorsGuide]: https://github.com/HelpViewer/helpAuthorsGuide
 [R.github]: https://github.com/HelpViewer/.github "Repozitář se základními informacemi"
 [RPrism]: https://github.com/HelpViewer/prism
+[RhelpInternalRef]: https://github.com/HelpViewer/helpInternalRef "HelpViewer dokumentace systémových objektů"
