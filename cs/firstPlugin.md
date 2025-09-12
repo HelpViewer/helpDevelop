@@ -5,11 +5,28 @@
 Pro vývoj nového pluginu je potřeba provést následující:
 
 1. Definovat co přesně má plugin zajišťovat. Podle vhodnosti k danému účelu zvolte předka pro daný plugin (**extends**). Obsah pluginu bude přinejmenším odpovídat minimálnímu pluginu - **IPlugin**.
-2. Do seznamu [pluginů][plugins] zaveďte plugin definičním řádkem: 
+
+### Balík nápovědy
+
+Pokud chcete plugin přidat do nápovědy, pak:
+
+2. Založte v repozitáři nápovědy v adresáři **_base** soubor:
+   - **plugins.lst** (seznam pluginů),
+   - adresáře **plugins** a **plugins-config**
+
+a dále postupujte podle kapitoly **Balík programu**.
+
+### Balík programu
+
+Pokud plugin chcete přidat do sestavení HelpVieweru:
+
+3. Do seznamu [pluginů][plugins] zaveďte plugin definičním řádkem: 
    - **[jméno třídy]** pokud má být plugin pouze načten (je předkem pro jiné pluginy, ale není určen k samostatné práci)
    - **[jméno třídy]:[jméno instance]** pokud má být plugin načten a je určen k zajištění funkcionality
-3. Do umístění **zip/plugins-config/[jméno třídy]_[jméno instance].cfg** vložte konfigurační definice pro novou instanci.
-4. Do umístění **zip/plugins/[jméno třídy].js** vložte zdrojový kód pluginu.
+4. Do umístění **zip/plugins-config/[jméno třídy]_[jméno instance].cfg** vložte konfigurační definice pro novou instanci.
+5. Do umístění **zip/plugins/[jméno třídy].js** vložte zdrojový kód pluginu.
+
+V případě nápověd použijte umístění bez **zip/**.
 
 ## Minimální plugin
 
