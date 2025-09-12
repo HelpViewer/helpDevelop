@@ -8,7 +8,7 @@ HelpViewer obsahuje plugin **puiButtonObjectExplorer**. Tento plugin slouží k 
 
 ⚠️ Pokud plugin nebyl doposud v rámci relace aktivní, část funkcionality ze seznamu funkcí při použití odkazů nebude ještě k dispozici.
 
-Pokud je plugin aktivní, bude krátce po spuštění aplikace načten a zobrazí se Vám na bočním panelu toto tlačítko:
+Pokud je plugin aktivní, zobrazí se Vám na bočním panelu toto tlačítko:
 
 <button class="pnl-btn" id="downP-ObjectExplorer" title="Prohlížeč objektů" aria-label="Prohlížeč objektů">🧩</button>
 

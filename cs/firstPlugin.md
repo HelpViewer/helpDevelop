@@ -49,6 +49,8 @@ Plugins.catalogize(pMinPlugin);
 
 ```
 
+Volání **Plugins.catalogize(pMinPlugin);** je povinné, protože provede zavedení pluginu do katalogu načtených pluginů. Následně na základě znalosti jména pluginu je možné si vyžádat jeho instance. Na základě dat v **plugins.lst** toto udělá aplikace sama.
+
 ## Základní pluginy
 
 | Název | Popis |

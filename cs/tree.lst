@@ -7,6 +7,9 @@ Seznamy|Seznamy||lists.md
  📄 Seznam pluginů (plugins.lst)|Seznam pluginů (plugins.lst)||plugins.lst.md
 🧩 Prohlížeč objektů|Prohlížeč objektů||oexplorer.md
 🧩 První plugin|První plugin||firstPlugin.md
+ Implementace pluginů|Implementace pluginů||implPlug.md
+  🔌 pConvertSysEventToEvent|pConvertSysEventToEvent||pConvertSysEventToEvent.md
+ Definice objektů
 🌐 Nový jazyk|Nový jazyk||newLangViewer.md
 Projekt HelpViewer|Projekt HelpViewer||helpviewer.md
  📜 Projektové dokumenty|Projektové dokumenty a politiky||?d=https://raw.githubusercontent.com/HelpViewer/.github/master/
