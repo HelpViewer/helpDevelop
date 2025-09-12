@@ -12,11 +12,11 @@
 ## 🧩 Knihovny třetích stran
 
 | Knihovna | Licence | Status integrace |
-| --- | --- | --- |
-| [JSZip library][JSZIP] | MIT | pevná |
-| [Marked][Marked] | MIT | odebratelné, plugin |
-| [Mermaid][Mermaid] | MIT | odebratelné, plugin |
-| [Prism][Prism] | MIT | odebratelné, plugin |
+| --- | :---: | --- |
+| [JSZip library][JSZIP] | MIT | 🔗 pevná |
+| [Marked][Marked] | MIT | 🧩 plugin, odebratelné |
+| [Mermaid][Mermaid] | MIT | 🧩 plugin, odebratelné |
+| [Prism][Prism] | MIT | 🧩 plugin, odebratelné |
 
 ## 📦 Distribuce
 
