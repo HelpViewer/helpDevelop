@@ -18,6 +18,7 @@ Plugin zobrazuje například:
 - Seznam prvků a objektů, které poskytuje konkrétní instance pluginu
 - Seznam konfiguračních voleb instance pluginu
 - Dokumentaci prvků, pokud je dostupná (zatím především v angličtině)
+- Informace o definovaných filtrech a vazbách v řetězci předání události: odesilatel -> obsluha.
 
 ⚠️ Pokud plugin nebyl doposud v rámci relace aktivní, část funkcionality ze seznamu výše při použití odkazů nemusí být ještě k dispozici.
 
