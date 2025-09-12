@@ -57,7 +57,7 @@ Volání **Plugins.catalogize(pMinPlugin);** je povinné, protože provede zaved
 |---|---|
 | 🔌 [IPlugin][IPlugin] | Základní plugin pro všechny pluginy v systému. Poskytuje základní funkce pro obecný plugin. Je určen pro pluginy služeb nebo posluchačů událostí, které samy nebudou zajišťovat žádný prvek uživatelského rozhraní. |
 | 🔌 [pConvertSysEventToEvent][pConvertSysEventToEvent] | Plugin převádí definovanou javascript událost na událost aplikace, která může být zachycena jiným pluginem. |
-| 🖼️ [pTRPhasePlugin][pTRPhasePlugin] | Plugin přijímá událost ⚡ [ShowChapterResolutions][ShowChapterResolutions] od pluginu [pTopicRenderer][pTopicRenderer] a provede jednotlivý krok procesního zpracování. Jednou z jeho aplikací je například parsování md souboru pro výpis do textu kapitoly. |
+| 🖼️ [pTRPhasePlugin][pTRPhasePlugin] | Plugin přijímá událost ⚡ [ShowChapterResolutions][ShowChapterResolutions] od pluginu 🖼️ [pTopicRenderer][pTopicRenderer] a provede jednotlivý krok procesního zpracování. Jednou z jeho aplikací je například parsování md souboru pro výpis do textu kapitoly. |
 | 🖥️ [puiButton][puiButton] | 🔘 Tlačítko pro uživatelské rozhraní. Obsluha akce musí být součástí zdroje pluginu. |
 | 🖥️ [puiButtonTab][puiButtonTab] | 🔘🎛️ Tlačítko a karta bočního panelu. |
 | 🖥️ [puiButtonTabTree][puiButtonTabTree] | 🔘🎛️📂 Tlačítko a karta bočního panelu s komponentou strom. |
