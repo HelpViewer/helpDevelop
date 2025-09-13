@@ -39,6 +39,7 @@ Plugins.catalogize(puiButtonFullScreen);
 ```
 
 - Řádky **this.DEFAULT_KEY_CFG_** mohou být odebrány, pokud chcete spoléhat pouze na konfiguraci ze souboru. S ohledem na automatickou dokumentaci objektů v pluginu však doporučuji je ponechat.
+- **this.button** obsahuje odkaz na vytvořené tlačítko.
 
 ## Popis funkčnosti
 

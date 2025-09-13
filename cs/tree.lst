@@ -13,6 +13,8 @@ Seznamy|Seznamy||lists.md
  🔺 Filtrování událostí|Filtrování událostí v pluginech||eventFilter.md
  Implementace pluginů|Implementace pluginů||implPlug.md
   🖥️ puiButton|puiButton||puiButton.md
+  🖥️ puiButtonTab|puiButtonTab||puiButtonTab.md
+  🖥️ puiButtonTabTree|puiButtonTabTree||puiButtonTabTree.md
   🔌 pConvertSysEventToEvent|pConvertSysEventToEvent||pConvertSysEventToEvent.md
   🖼️ pTRPhasePlugin|pTRPhasePlugin||pTRPhasePlugin.md
   🖼️ pTopicRenderer|pTopicRenderer||pTopicRenderer.md

@@ -30,7 +30,7 @@ V dokumentaci se budou objevovat obecnější názvy popisů fází. Tyto pojmy 
 | Data nápovědy | 3.6-3.9 | 🗃️❔ Pokud existuje, načítá se další logika a data z nápovědy, částečně nahrazují standardní logiku. |
 | Události a moduly | 3.10 | 🧩 Načítají se základní pluginy - zásuvné moduly, které obsahují aplikační komponenty. Od tohoto bodu dále je možno používat systém pluginů a událostí. |
 | Rozšíření logiky | 3.11-3.13 | 🗃️❔➕ Aplikační logika je rozšířena o načtená data z nápovědy. |
-| Spouštění | 3.14 | ⚡ Událost **PluginsLoadingFinished** potvrzuje dokončené spuštění aplikace. |
+| Spouštění | 3.14 | ⚡ Událost [PluginsLoadingFinished][PluginsLoadingFinished] potvrzuje dokončené spuštění aplikace. |
 
 ## Detail fází spouštění
 
@@ -63,4 +63,6 @@ V dokumentaci se budou objevovat obecnější názvy popisů fází. Tyto pojmy 
    11. STO_?:appmainNext.js (zavedení)
    12. STO_HELP:plus.css (zavedení)
    13. STO_HELP:plus.js (zavedení)
-   14. ⚡ PluginsLoadingFinished
+   14. ⚡ [PluginsLoadingFinished][PluginsLoadingFinished]
+
+[PluginsLoadingFinished]: :_evt:PluginsLoadingFinished.md "PluginsLoadingFinished"
