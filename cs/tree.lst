@@ -8,8 +8,11 @@ Seznamy|Seznamy||lists.md
 🐞 Debug režim|Debug režim||debug.md
 🧩 Prohlížeč objektů|Prohlížeč objektů||oexplorer.md
 🧩 První plugin|První plugin||firstPlugin.md
+ 📑 Zavádění pluginů|Zavádění pluginů||pluginLoad.md
  ⚙️ Konfigurace pluginů|Konfigurace pluginů||pluginConfig.md
+ ▼ Filtrování událostí|Filtrování událostí v pluginech||eventFilter.md
  Implementace pluginů|Implementace pluginů||implPlug.md
+  🖥️ puiButton|puiButton||puiButton.md
   🔌 pConvertSysEventToEvent|pConvertSysEventToEvent||pConvertSysEventToEvent.md
   🖼️ pTRPhasePlugin|pTRPhasePlugin||pTRPhasePlugin.md
   🖼️ pTopicRenderer|pTopicRenderer||pTopicRenderer.md

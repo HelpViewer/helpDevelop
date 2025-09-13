@@ -37,7 +37,7 @@ Pokud aplikace běží v [debug režimu][debug], plugin průběh své činnosti 
 Je doporučeno, aby každá fáze měla definovaný aspoň jeden plugin. Pokud v daném procesu fáze vhodná není, ale nechcete ji odebírat, definujte instanci pluginu 🖼️ [pTREmptyPlugin][pTREmptyPlugin].
 5. Po dokončení zpracování všech kroků (odpovídají za ně potomci 🖼️ [pTRPhasePlugin][pTRPhasePlugin]) odešle událost ⚡ [ChapterShown][ChapterShown], kterou obvykle přijímá plugin 🧩 [pAppmainNext][pAppmainNext], který je hlavním pluginem aplikace a má na tuto událost obsluhu.
 
-## Aplikace
+## Příklady implementací
 
 - Vypisování obsahu kapitoly uživateli
 - Příprava fulltext slovníku v případě, že není v nápovědě k dispozici předgenerovaný slovník ze CI/CD skriptu

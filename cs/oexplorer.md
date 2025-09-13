@@ -36,7 +36,7 @@ Dále podporuje:
 
 - vývojářské ruční definice vazeb
 - statická analýza (skenování kódu, který je načtený, ale neběží)
-- dynamická analýza (automatizované skenování běhu a zaslaných událostí během provozu)
+- dynamická analýza (automatizované skenování běhu a zaslaných událostí během provozu - ⚡ [DebugEventEvent][DebugEventEvent])
 
 ## Omezení
 
@@ -47,3 +47,4 @@ Dále podporuje:
 [OEGroups]: :_/README.md "Seznam kategorií"
 [OETree]: :_/tree/TREE.md "Strom dědičností"
 [OELoadOrder]: :_/LORDER.md "Pořadí zavádění"
+[DebugEventEvent]: :_evt:DebugEventEvent.md "DebugEventEvent"
