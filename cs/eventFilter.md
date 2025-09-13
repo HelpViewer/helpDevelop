@@ -10,7 +10,7 @@ Volání provádějte v konstruktoru nebo na začátku funkce init() nebo nejpoz
 
 Filtrování událostí je dvoustupňové - podle eventIdStrict a jména obslužné funkce. V následujících podkapitolách je popsáno podrobněji.
 
-## Úvodní souhrn
+## Souhrn
 
 - Funkce **onET_(jméno události)** přijímá všechny události s eventName = (jméno události)
 - Funkce **onET(jméno události)** přijímá všechny události s eventName = (jméno události) a id = plugin.aliasName

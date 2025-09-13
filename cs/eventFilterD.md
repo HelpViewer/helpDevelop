@@ -8,10 +8,10 @@ flowchart LR
   Plugin[🧩 Plugin - aliasName, eventIdStrict] --> CheckIdRelaxed
   Plugin --> CheckIdStrict
   Plugin --> CheckStrict
-  CheckHandler{Existuje handler pro eventName?} -->|NE| EndN
+  CheckHandler{👂 Existuje obsluha pro eventName?} -->|NE| EndN
   CheckHandler -->|ANO| CheckStrict
-  CheckStrict{plugin.eventIdStrict} -->|ANO| CheckIdStrict
-  CheckStrict -->|NE| CheckIdRelaxed
+  CheckStrict{plugin.eventIdStrict} -->|🔺 ANO| CheckIdStrict
+  CheckStrict -->|🟢 NE| CheckIdRelaxed
   CheckIdStrict{id = plugin.aliasName?} -->|ANO| EndY
   CheckIdStrict -->|NE| EndN
   CheckIdRelaxed{id = plugin.aliasName nebo plugin.aliasName = ''?} -->|ANO| EndY
