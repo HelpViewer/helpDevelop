@@ -1,6 +1,6 @@
 # ▼ Filtrování událostí v pluginech
 
-V pluginech existuje přepínač na (de)aktivaci filtru na příjem událostí podle **aliasName (id)** instance pluginu:
+Každý plugin může přijímat události ze systému. V pluginech existuje přepínač na (de)aktivaci filtru na příjem událostí podle **aliasName (id)** instance pluginu:
 
 ```javascript
 this.eventIdStrict = true;
@@ -16,23 +16,27 @@ Filtrování událostí je dvoustupňové - podle eventIdStrict a jména obsluž
 - Funkce **onET(jméno události)** přijímá všechny události s eventName = (jméno události) a id = plugin.aliasName
 - **Plugin s plugin.aliasName = ''** přijímá všechny události do funkce **onET(jméno události)** nebo **onET_(jméno události)**
 
+⚠️ V pluginu je doporučeno mít jen jednu obsluhu z těchto:
+
+- onET(jméno události)
+- onET_(jméno události)
+
 ## Diagram rozhodovacího procesu
 
 ```mermaid
 flowchart LR
-  Event[⚡ Událost - eventName, id] --> Check1
-  Plugin[🧩 Plugin - aliasName] --> Check4
-  Plugin --> Check5
-  Check1{Existuje 👂 onET_:eventName:} -->|TRUE| EndY
-  Check1 -->|FALSE| Check2
-  Check2{eventIdStrict} -->|🔺 TRUE| Check3
-  Check2 -->|🟢 FALSE| Check5
-  Check3{Existuje 👂 onET:eventName:} -->|FALSE| EndN
-  Check3 -->|TRUE| Check4
-  Check4{Událost.id = Plugin.aliasName} -->|TRUE| EndY
-  Check4 -->|FALSE| Check5
-  Check5{Událost.id nebo Plugin.aliasName = ''} -->|TRUE| EndY
-  Check5 -->|FALSE| EndN
+  Event[⚡ Událost - eventName, id] --> CheckHandler
+  Plugin[🧩 Plugin - aliasName, eventIdStrict] --> CheckIdRelaxed
+  Plugin --> CheckIdStrict
+  Plugin --> CheckStrict
+  CheckHandler{Existuje handler pro eventName?} -->|NE| EndN
+  CheckHandler -->|ANO| CheckStrict
+  CheckStrict{plugin.eventIdStrict} -->|ANO| CheckIdStrict
+  CheckStrict -->|NE| CheckIdRelaxed
+  CheckIdStrict{id = plugin.aliasName?} -->|ANO| EndY
+  CheckIdStrict -->|NE| EndN
+  CheckIdRelaxed{id = plugin.aliasName nebo plugin.aliasName = ''?} -->|ANO| EndY
+  CheckIdRelaxed -->|NE| EndN
   EndY[✔️ Předej do pluginu]
   EndN[⛔ Nepředávej]
 ```
