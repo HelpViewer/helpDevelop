@@ -1,4 +1,4 @@
-# ▼ Filtrování událostí v pluginech - rozbor
+# 🔺 Filtrování událostí v pluginech - rozbor
 
 ## Diagram rozhodovacího procesu
 

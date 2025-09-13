@@ -1,4 +1,4 @@
-# ▼ Filtrování událostí v pluginech
+# 🔺 Filtrování událostí v pluginech
 
 Každý plugin může přijímat události ze systému. V pluginech existuje přepínač na (de)aktivaci filtru na příjem událostí podle **aliasName (id)** instance pluginu:
 
