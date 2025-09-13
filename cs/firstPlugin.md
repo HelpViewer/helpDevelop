@@ -62,6 +62,10 @@ Volání **Plugins.catalogize(pMinPlugin);** je povinné, protože provede zaved
 | 🖥️ [puiButtonTab][puiButtonTab] | 🔘🎛️ Tlačítko a karta bočního panelu. |
 | 🖥️ [puiButtonTabTree][puiButtonTabTree] | 🔘🎛️📂 Tlačítko a karta bočního panelu s komponentou strom. |
 
+## Příklady implementací
+
+- 🖼️ [pTREmptyPlugin][pTREmptyPlugin]
+
 [pTREmptyPlugin]: :_cpp:pTREmptyPlugin.md "Prázdný plugin"
 [IPlugin]: :_plg:IPlugin.md "IPlugin"
 [pConvertSysEventToEvent]: :_plg:pConvertSysEventToEvent.md "pConvertSysEventToEvent"

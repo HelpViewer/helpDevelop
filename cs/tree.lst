@@ -5,11 +5,14 @@ Seznamy|Seznamy||lists.md
  📄 Seznam stylů (css.lst)|Seznam stylů (css.lst)||css.lst.md
  📄 Seznam skriptů (js.lst)|Seznam skriptů (js.lst)||js.lst.md
  📄 Seznam pluginů (plugins.lst)|Seznam pluginů (plugins.lst)||plugins.lst.md
+🐞 Debug režim|Debug režim||debug.md
 🧩 Prohlížeč objektů|Prohlížeč objektů||oexplorer.md
 🧩 První plugin|První plugin||firstPlugin.md
+ ⚙️ Konfigurace pluginů|Konfigurace pluginů||pluginConfig.md
  Implementace pluginů|Implementace pluginů||implPlug.md
   🔌 pConvertSysEventToEvent|pConvertSysEventToEvent||pConvertSysEventToEvent.md
   🖼️ pTRPhasePlugin|pTRPhasePlugin||pTRPhasePlugin.md
+  🖼️ pTopicRenderer|pTopicRenderer||pTopicRenderer.md
  Definice objektů
 🌐 Nový jazyk|Nový jazyk||newLangViewer.md
 Projekt HelpViewer|Projekt HelpViewer||helpviewer.md

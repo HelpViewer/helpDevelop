@@ -12,3 +12,9 @@ plugins.lst.md|Seznam pluginů
 oexplorer.md|Prohlížeč objektů
 firstPlugin.md|První plugin
 techstack.md|Použité technologie
+pTRPhasePlugin.md|pTRPhasePlugin
+pConvertSysEventToEvent.md|pConvertSysEventToEvent
+implPlug.md|Implementace pluginů
+lists.md|Seznamy zavádění
+pTopicRenderer.md|pTopicRenderer
+pluginConfig.md|Konfigurace pluginů

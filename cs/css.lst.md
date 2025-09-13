@@ -7,7 +7,7 @@
 
 ## Struktura souboru
 
-```
+```text
 [1]
 ```
 

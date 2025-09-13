@@ -2,7 +2,7 @@
 
 ## Účel pluginu
 
-Plugin přijímá událost ⚡ [ShowChapterResolutions][ShowChapterResolutions] od pluginu 🖼️ [pTopicRenderer][pTopicRenderer] a provede jednotlivý krok procesního zpracování. Plugin pTopicRenderer má ve své konfiguraci definovaný seznam procesních fází a zajišťuje postup jednotlivých zpráv celým procesem.
+Plugin přijímá událost ⚡ [ShowChapterResolutions][ShowChapterResolutions] od pluginu 🖼️ [pTopicRenderer][cpTopicRenderer] a provede jednotlivý krok procesního zpracování. Plugin pTopicRenderer má ve své konfiguraci definovaný seznam procesních fází a zajišťuje postup jednotlivých zpráv celým procesem.
 
 ## Implementace
 
@@ -19,9 +19,9 @@ class pTRNewPlugin extends pTRPhasePlugin {
 Plugins.catalogize(pTRNewPlugin);
 ```
 
-onETShowChapterResolutions je odpovědná za prováděný procesní krok. Parametr r je událost ⚡ ShowChapterResolutions. Událost sama obsahuje veškeré podpůrné objekty a metody pro načtení, přípravu či provedení výpisu textu do výstupního HTML prvku pro kapitolu. 
+onETShowChapterResolutions je odpovědná za prováděný procesní krok. Parametr r je událost ⚡ [ShowChapterResolutions][ShowChapterResolutions]. Událost sama obsahuje veškeré podpůrné objekty a metody pro načtení, přípravu či provedení výpisu textu do výstupního HTML prvku pro kapitolu. 
 
-### onETShowChapterResolutions - vybrané vlastnosti
+### ShowChapterResolutions - vybrané vlastnosti
 
 | Vlastnost | Popis |
 |---|---|
@@ -50,6 +50,7 @@ Můžete také připojit více událostí ke stejnému result objektu, ale je do
 [pTRTriage]: :inst:pTRTriage:-triage.md "pTRTriage"
 [pTREmptyPlugin]: :inst:pTREmptyPlugin:-htm.md "pTREmptyPlugin"
 [ShowChapterResolutions]: :_evt:ShowChapterResolutions.md "ShowChapterResolutions"
+[cpTopicRenderer]: pTopicRenderer.md "pTopicRenderer"
 [pTopicRenderer]: :_plg:pTopicRenderer.md "pTopicRenderer"
 [pTRParseMd]: :_plg:pTRParseMd.md "pTRParseMd"
 [pTRLoadData]: :_plg:pTRLoadData.md "pTRLoadData"
