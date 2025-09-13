@@ -21,3 +21,4 @@ pluginConfig.md|Konfigurace pluginů
 pluginLoad.md|Zavádění pluginů
 puiButton.md|puiButton
 eventFilter.md|Filtrování událostí v pluginech
+eventFilterD.md|Detaily o filtrování událostí v pluginech

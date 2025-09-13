@@ -24,3 +24,5 @@ Projekt HelpViewer|Projekt HelpViewer||helpviewer.md
  🔗 GitHub|GitHub repozitář||https://github.com/HelpViewer/HelpViewer
  🐳 Kontejnerové obrazy|Kontejnerové obrazy||https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer
  💬 Uživatelská skupina|Uživatelská skupina Discord||https://discord.gg/J2SjcmqHSZ
+Přílohy|Přílohy||appendix.md
+ ▼ Detaily k filtrování událostí|Detaily k filtrování událostí v pluginech||eventFilterD.md
