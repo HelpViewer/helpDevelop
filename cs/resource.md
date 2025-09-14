@@ -4,7 +4,7 @@ Cílem pluginu 📦 [Resource][Resource] je zajistit základní definici a proce
 
 ## Definice
 
-1. V pluginu v init definujete objekt zdroje takto (výpis zkrácen na init a deinit funkce):
+1. V pluginu v init definujete objekt zdroje takto (výpis zkrácen na init funkci):
 
 ```javascript
   init() {

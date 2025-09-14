@@ -37,6 +37,15 @@ Pokud se v konfiguračním souboru nenajde klíč z konstanty **KEY_CFG_FILENAME
 - DEFAULT_KEY_CFG_FILENAME - defaultní hodnota pro konfigurační klíč
 - ⚠️ DEFAULT_**KEY_CFG_FILENAME** a **KEY_CFG_FILENAME** se musí svým názvem objektu shodovat, aby prohlížeč objektů konfigurační volbu správně vyhodnotil a propojil název i výchozí (záložní) hodnotu.
 
+## Záznamy 📄⚙️
+
+Pokud se v [prohlížeči objektů][oexplorer] objeví záznamy s ikonkou 📄⚙️, znamená to, že konkrétní klíče, které konfigurace obsahuje nejsou v pluginu vyjmenovány způsobem, jak je popsáno zde v [definici](#h-2-0).
+
+Důvodem mohou být například:
+
+- přístup inspirovaný [prohlížečem objektů][oexplorer], kde je cílem mít otevřenou množinu konfiguračních klíčů. Seznam skupin může být libovolně dlouhý a jeho položky odkazují na další klíče. Tyto klíče nejsou předem známé, protože konfigurace může být dynamicky měněna, ale plugin je díky své interní logice dokáže správně načíst.
+- překlep v klíči na straně konfiguračního souboru vede ke vzniku další viditelné položky, přičemž u klíče správného jména se použije default hodnota protože nic není načteno
 
 [cfgPlug]: pluginConfig.md "Konfigurace pluginů"
 [pTRParseMd]: :_inst:pTRParseMd:-md.md#h-2-1 "pTRParseMd:-md"
+[oexplorer]: oexplorer.md "Prohlížeč objektů"
