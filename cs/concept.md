@@ -23,7 +23,7 @@ Systém pluginů i distribuce zpráv je vyvinut od základů, bez použití ciz�
 **Hlavní součásti aplikace:**
 
 - zavaděč (**hvdata/appmain.js + jszip.min.js**),
-- aplikační data (**hvdata/data.zip**), kde je uložena převážná část aplikace (asi 86 % velikosti balíčku)
+- aplikační data (**hvdata/data.zip**; **STO_DATA**), kde je uložena převážná část aplikace (asi 86 % velikosti balíčku)
   - nízkoúrovňový kód (v **js.lst**),
   - pluginový kód (v **plugins.lst**).
 - knihovny třetích stran (oddělené, načítané jako samostatné moduly)
