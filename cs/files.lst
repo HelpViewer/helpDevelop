@@ -25,3 +25,15 @@ eventFilterD.md|Detaily o filtrování událostí v pluginech
 appendix.md|Přílohy
 puiButtonTab.md|puiButtonTab
 puiButtonTabTree.md|puiButtonTabTree
+objDef.md|Definice objektů v pluginech
+debug.md|Režim ladění
+cfgopt.md|Konfigurační volba
+event.md|Událost
+concept.md|Základní přehled
+handler.md|Obsluha události
+jsevent.md|Zpracování javascript události
+uiobject.md|UI prvky
+uibutton.md|Tlačítko
+uitab.md|Karta
+uitree.md|Strom
+resource.md|Zdroj/Balíček

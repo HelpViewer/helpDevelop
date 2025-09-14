@@ -42,6 +42,7 @@ Dále podporuje:
 
 1. Plugin je dostupný pouze v **DEBUG** režimu z důvodu ochrany produkčních prostředí.
 2. ⚠️ Pro úplný seznam objektů je nutné, aby byla daná funkcionalita v rámci relace alespoň jednou provedena.
+3. Indexovány jsou pouze pojmenované funkce a objekty, které plugin vystavuje přes **this**.
 
 [PlgsList]: plugins.lst.md "Seznam pluginů"
 [OEGroups]: :_/README.md "Seznam kategorií"

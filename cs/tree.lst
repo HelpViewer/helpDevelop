@@ -1,4 +1,5 @@
 Dokumentace pro vývojáře|Dokumentace pro vývojáře||README.md
+🗺️ Základní přehled|Základní přehled||concept.md
 🛠️ Použité technologie|Použité technologie a součásti||techstack.md
 ▶️ Spouštěcí sekvence|Spouštěcí sekvence||runseq.md
 Seznamy|Seznamy||lists.md
@@ -18,7 +19,17 @@ Seznamy|Seznamy||lists.md
   🔌 pConvertSysEventToEvent|pConvertSysEventToEvent||pConvertSysEventToEvent.md
   🖼️ pTRPhasePlugin|pTRPhasePlugin||pTRPhasePlugin.md
   🖼️ pTopicRenderer|pTopicRenderer||pTopicRenderer.md
- Definice objektů
+ Definice objektů|Definice objektů||objDef.md
+  ⚙️ Konfigurační volba|Konfigurační volba||cfgopt.md
+  ⚡ Událost|Událost||event.md
+  👂 Obsluha události|Obsluha události||handler.md
+  ⭐ Zpracování javascript události|Zpracování javascript události||jsevent.md
+  UI prvky|UI prvky||uiobject.md
+   🔘 Tlačítko|Tlačítko||uibutton.md
+   🎛️ Karta|Karta||uitab.md
+   📂 Strom|Strom||uitree.md
+  📦 Zdroj|Zdroj||resource.md
+  🔀 Směrování kliknutí myši
 🌐 Nový jazyk|Nový jazyk||newLangViewer.md
 Projekt HelpViewer|Projekt HelpViewer||helpviewer.md
  📜 Projektové dokumenty|Projektové dokumenty a politiky||?d=https://raw.githubusercontent.com/HelpViewer/.github/master/

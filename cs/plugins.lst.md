@@ -32,4 +32,4 @@
 
 ## Další funkce
 
-- Při zavedení každé instance systém automaticky zjišťuje, zda existuje pro instanci pluginu samostatná konfigurace. Jméno souboru je vždy: **plugins-config/[1]_[2].cfg**. Pokud je [2] neuvedeno, pak je použito jméno **plugins-config/[1]_.cfg**.
+- Při zavedení každé instance systém automaticky zjišťuje, zda existuje pro instanci pluginu samostatná konfigurace. Jméno souboru je vždy: **plugins-config/\[1\]_\[2\].cfg**. Pokud je \[2\] neuvedeno, pak je použito jméno **plugins-config/\[1\]_.cfg**.
