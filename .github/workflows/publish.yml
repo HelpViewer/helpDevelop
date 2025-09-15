@@ -86,7 +86,7 @@ jobs:
           
           dir=_base
           cd $dir
-          echo "" >> _config.txt
+          touch _config.txt
           zip -r -9 ../_output/Help-.zip .
           cd ..
           
