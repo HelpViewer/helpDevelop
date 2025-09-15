@@ -22,7 +22,7 @@ The component defines a standard HTML button that is modified by the CSS class *
   }
 
   _buttonAction(evt) {
-    alert('Ahoj.');
+    alert('Ahoy.');
   }
 ```
 

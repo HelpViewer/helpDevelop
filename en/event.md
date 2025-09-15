@@ -69,12 +69,12 @@ Plugins.catalogize(pEventPlugin);
 In the handler code, you can then trigger events as follows:
 
 ```javascript
-      const eventName = EventNames.MyNewEvent; //nebo: 'MyNewEvent'
+      const eventName = EventNames.MyNewEvent; //or: 'MyNewEvent'
 
       sendEvent(eventName, (r) => {
         r.id = aliasName;
         r.result = loadedCount;
-        //vyplnění dalších potřebných dat
+        //fill another data of event
       });
 ```
 
