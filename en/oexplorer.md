@@ -18,7 +18,7 @@ The plugin displays, for example:
 
 - Overview of [groups and supported objects][OEGroups]
 - [Dependency tree][OETree] of plugins and events
-- [Order][OELoadOrder] of loading [plugin instances] [PlgsList]
+- [Order][OELoadOrder] of loading [plugin instances][PlgsList]
 - Plugins in categories (controlled by plugin configuration)
 - Plugins in groups according to common ID (plugins thus form an integrated whole - dictionary of keywords, chapter text rendering procedure, etc.)
 - List of elements and objects provided by a specific plugin instance
