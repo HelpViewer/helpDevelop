@@ -41,7 +41,7 @@ new Resource('MARKED', undefined, STO_DATA, filename):
 | source | STO_DATA | Jméno zdrojového souboru dat. Hodnoty: STO_DATA (aplikace), STO_HELP (nápověda/datový soubor) |
 | fileList | '' | Seznam souborů oddělených středníky |
 
-Ukázka v příkaldu založí instanci pluginu 📦 [Resource][Resource] s názvem MARKED, bez konfigurace. Data hledá v datech aplikace (**data.zip**). Obsahem balíčku jsou soubory z fileList.
+Ukázka v příkladu založí instanci pluginu 📦 [Resource][Resource] s názvem MARKED, bez konfigurace. Data hledá v datech aplikace (**data.zip**). Obsahem balíčku jsou soubory z fileList.
 
 ## Funkce pluginu Resource
 

@@ -81,6 +81,13 @@ V obslužném kódu pak můžete události vyvolávat takto:
 V souboru **appmainBaseLogic.js** naleznete příklady funkcí, které podobná volání zapouzdřují.  
 ⚠️ Je doporučeno si pro svůj plugin založit podobnou sadu funkcí v odděleném souboru (který vložíte do [seznamu skriptů][jsList]). Volání metody **sendEvent** se neindexuje pro [prohlížeč objektů][oexplorer], ale tyto funkce budou indexovány.
 
+## Záznamy 🛰️
+
+Záznam v 🛰️ [prohlížeči objektů][oexplorer] znamená, že: 
+
+- v přehledu instance pluginu : plugin odesílá událost ...
+- u seznamu komunikačních cest události : událost je odesílána z ...
+
 [IEvent]: :_evt:IEvent.md "IEvent"
 [oexplorer]: oexplorer.md "Prohlížeč objektů"
 [IPlugin]: :_plg:IPlugin.md "IPlugin"

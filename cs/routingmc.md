@@ -4,7 +4,7 @@ Tento objekt je spravován pluginem 🖥️ [pui][pui]. Je to slovník předpon 
 
 ## Definice
 
-1. V pluginu v init definujete objekt zdroje takto (výpis zkrácen na init funkce):
+1. V pluginu v init definujete obsluhu takto (výpis zkrácen na init funkci):
 
 ```javascript
   init() {
@@ -30,6 +30,17 @@ V [prohlížeči objektů][oexplorer] je tato položka k dohledání pod plugine
 - TI.cfgTreeId - id klíč pro předání události ⚡ [ClickedEvent][ClickedEvent]. Událost bude do připojené obsluhy předána pokud klíč ve směrování bude shodný s:
   - id objektu úplně,
   - první částí id prvku (části id prvku se dělí podle znaku **|** a **-**. Důvodem je skutečnost, že stromové komponenty mají společný handler pro své položky, přičemž tento handler je zde také zaveden)
+- registerOnClick(TI.cfgTreeId,  (evt) => { - k id nebo bázovému názvu v TI.cfgTreeId připojí funkci v druhém parametru
+
+## Reset obsluhy
+
+V případě potřeby resetu obsluhy ke stejnému klíči přiřaďte ještě jednou prázdnou metodu:
+
+```javascript
+    const TI = this;
+    TI.cfgTreeId = 'NewTreeId';
+    registerOnClick(TI.cfgTreeId, (evt) => {});
+```
 
 ## Příklady implementací
 

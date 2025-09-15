@@ -1,4 +1,4 @@
-# 🎛️ UI prvky
+# 🔘 UI prvky
 
 Následující podkapitoly stromu popisují komponenty, které aplikace běžně používá.
 

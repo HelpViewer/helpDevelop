@@ -18,7 +18,7 @@ Pokud jste ⚡ [událost definovali s obsluhou][eventWH], tento postup pro vás 
 ## Význam jména funkce
 
 - onET_ClickHandlerRegister (podtržítko) - příjímá události **ClickHandlerRegister** pro jakékoli id pluginu a to i když bude definováno 🔺 [filtrování][filter].
-- onETClickHandlerRegister - příjímá události **ClickHandlerRegister** s [id][IEvent-ID], které se shoduje s **plugin.aliasName**.
+- onETClickHandlerRegister - příjímá události **ClickHandlerRegister** s [id][IEvent-ID], které se shoduje s **plugin.aliasName**. Id '' jako jediné je také považováno za shodu i v případě této metody.
 
 ### Další informace
 
