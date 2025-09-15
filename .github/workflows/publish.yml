@@ -85,10 +85,12 @@ jobs:
           echo "exists=true" >> $GITHUB_OUTPUT
           
           dir=_base
-          cd $dir
-          touch _config.txt
-          zip -r -9 ../_output/Help-.zip .
-          cd ..
+          if [ -d "$dir" ]; then
+            cd $dir
+            touch _config.txt
+            zip -r -9 ../_output/Help-.zip .
+            cd ..
+          fi
           
           echo "Bundling finished."
 
