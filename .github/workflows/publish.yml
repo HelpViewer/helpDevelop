@@ -108,13 +108,21 @@ jobs:
 
           echo "::group::Old release delete"
           RELEASE_ID=$(curl -s -H "Authorization: token $TOKEN" \
-            https://api.github.com/repos/$REPO/releases/tags/$TAG | jq -r .id)
+            https://api.github.com/repos/$REPO/releases/tags/$TAG)
 
-          if [ "$RELEASE_ID" != "null" ]; then
-            echo "Deleting release ID $RELEASE_ID"
-            curl -s -X DELETE -H "Authorization: token $TOKEN" \
-              https://api.github.com/repos/$REPO/releases/$RELEASE_ID
+          MESSAGE=$(echo "$RELEASE_ID" | jq -r '.message // empty')
+          if [ "$MESSAGE" = "Not Found" ]; then
+            echo "Release with tag $TAG not found"
+          else
+            RELEASE_ID =$(echo "RELEASE_ID" | jq -r '.id // empty')
+            
+            if [ "$RELEASE_ID" != "null" ]; then
+              echo "Deleting release ID $RELEASE_ID"
+              curl -s -X DELETE -H "Authorization: token $TOKEN" \
+                https://api.github.com/repos/$REPO/releases/$RELEASE_ID
+            fi
           fi
+
           echo "::endgroup::"
           
           echo "::group::Old tag delete"
