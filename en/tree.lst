@@ -1,8 +1,41 @@
-Developer Guide|Developer Guide||README.md
+Documentation for developers|Documentation for developers||README.md
+🗺️ Basic overview|Basic overview||concept.md
+🛠️ Used technologies|Used technologies||techstack.md
+▶️ Startup sequence|Startup sequence||runseq.md
+Lists|Lists||lists.md
+ 📄 List of styles (css.lst)|List of styles (css.lst)||css.lst.md
+ 📄 List of scripts (js.lst)|List of scripts (js.lst)||js.lst.md
+ 📄 List of plugins (plugins.lst)|List of plugins (plugins.lst)||plugins.lst.md
+🐞 Debug mode|Debug mode||debug.md
+🧩 Object explorer|Object explorer||oexplorer.md
+🧩 First plugin|First plugin||firstPlugin.md
+ 📑 Loading plugins|Loading plugins||pluginLoad.md
+ ⚙️ Plugin configuration|Plugin configuration||pluginConfig.md
+ 🔺 Filtering events in plugins|Filtering events in plugins||eventFilter.md
+ Plugin implementation|Plugin implementation||implPlug.md
+  🖥️ puiButton|puiButton||puiButton.md
+  🖥️ puiButtonTab|puiButtonTab||puiButtonTab.md
+  🖥️ puiButtonTabTree|puiButtonTabTree||puiButtonTabTree.md
+  🔌 pConvertSysEventToEvent|pConvertSysEventToEvent||pConvertSysEventToEvent.md
+  🖼️ pTRPhasePlugin|pTRPhasePlugin||pTRPhasePlugin.md
+  🖼️ pTopicRenderer|pTopicRenderer||pTopicRenderer.md
+ Object definitions|Object definitions||objDef.md
+  ⚙️ Configuration option|Configuration option||cfgopt.md
+  ⚡ Event|Event||event.md
+  👂 Event handler|Event handler||handler.md
+  ⭐ JavaScript event processing|JavaScript event processing||jsevent.md
+  UI elements|UI elements||uiobject.md
+   🔘 Button|Button||uibutton.md
+   🎛️ Tab|Tab||uitab.md
+   📂 Tree|Tree||uitree.md
+  📦 Resource|Resource||resource.md
+  🔀 Mouse click routing|Mouse click routing||routingmc.md
+🌐 New language|New language||newLangViewer.md
 HelpViewer Project|HelpViewer Project||helpviewer.md
- 🌐 New language|New language||newLangViewer.md
  📜 Project policies|Project policies and documents||?d=https://raw.githubusercontent.com/HelpViewer/.github/master/
  🚀 Download latest version|Package for offline use and deployment||=latestApp
  🔗 GitHub|GitHub repository||https://github.com/HelpViewer/HelpViewer
  🐳 Container images|Container images||https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer
  💬 User group|Discord user group||https://discord.gg/J2SjcmqHSZ
+Appendices|Appendices||appendix.md
+ 🔺 Filtering events in plugins details|Filtering events in plugins details||eventFilterD.md

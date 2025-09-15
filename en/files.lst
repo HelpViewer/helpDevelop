@@ -1,7 +1,40 @@
-README.md|Developer Guide
+README.md|Documentation for developers
 helpviewer.md|HelpViewer Project
 =latestApp|Download latest version
 https://github.com/HelpViewer/HelpViewer|GitHub repository
 https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer|Container images
 https://discord.gg/J2SjcmqHSZ|User group
 newLangViewer.md|New language for Viewer
+runseq.md|Startup sequence
+css.lst.md|List of styles
+js.lst.md|List of scripts
+plugins.lst.md|List of plugins
+oexplorer.md|Object explorer
+firstPlugin.md|First plugin
+techstack.md|Used technologies
+pTRPhasePlugin.md|pTRPhasePlugin
+pConvertSysEventToEvent.md|pConvertSysEventToEvent
+implPlug.md|Plugin implementation
+lists.md|Loading Lists
+pTopicRenderer.md|pTopicRenderer
+pluginConfig.md|Plugin configuration
+pluginLoad.md|Loading plugins
+puiButton.md|puiButton
+eventFilter.md|Filtering events in plugins
+eventFilterD.md|Filtering events in plugins details
+appendix.md|Appendices
+puiButtonTab.md|puiButtonTab
+puiButtonTabTree.md|puiButtonTabTree
+objDef.md|Object definitions
+debug.md|Debug mode
+cfgopt.md|Configuration option
+event.md|Event
+concept.md|Basic overview
+handler.md|Event handler
+jsevent.md|JavaScript event processing
+uiobject.md|UI elements
+uibutton.md|Button
+uitab.md|Tab
+uitree.md|Tree
+resource.md|Resource/Package
+routingmc.md|Mouse click routing
