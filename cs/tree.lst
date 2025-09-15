@@ -12,24 +12,24 @@ Seznamy|Seznamy||lists.md
  📑 Zavádění pluginů|Zavádění pluginů||pluginLoad.md
  ⚙️ Konfigurace pluginů|Konfigurace pluginů||pluginConfig.md
  🔺 Filtrování událostí|Filtrování událostí v pluginech||eventFilter.md
- Implementace pluginů|Implementace pluginů||implPlug.md
-  🖥️ puiButton|puiButton||puiButton.md
-  🖥️ puiButtonTab|puiButtonTab||puiButtonTab.md
-  🖥️ puiButtonTabTree|puiButtonTabTree||puiButtonTabTree.md
-  🔌 pConvertSysEventToEvent|pConvertSysEventToEvent||pConvertSysEventToEvent.md
-  🖼️ pTRPhasePlugin|pTRPhasePlugin||pTRPhasePlugin.md
-  🖼️ pTopicRenderer|pTopicRenderer||pTopicRenderer.md
- Definice objektů|Definice objektů||objDef.md
-  ⚙️ Konfigurační volba|Konfigurační volba||cfgopt.md
-  ⚡ Událost|Událost||event.md
-  👂 Obsluha události|Obsluha události||handler.md
-  ⭐ Zpracování javascript události|Zpracování javascript události||jsevent.md
-  UI prvky|UI prvky||uiobject.md
-   🔘 Tlačítko|Tlačítko||uibutton.md
-   🎛️ Karta|Karta||uitab.md
-   📂 Strom|Strom||uitree.md
-  📦 Zdroj|Zdroj||resource.md
-  🔀 Směrování kliknutí myši|Směrování kliknutí myši||routingmc.md
+Implementace pluginů|Implementace pluginů||implPlug.md
+ 🖥️ puiButton|puiButton||puiButton.md
+ 🖥️ puiButtonTab|puiButtonTab||puiButtonTab.md
+ 🖥️ puiButtonTabTree|puiButtonTabTree||puiButtonTabTree.md
+ 🔌 pConvertSysEventToEvent|pConvertSysEventToEvent||pConvertSysEventToEvent.md
+ 🖼️ pTRPhasePlugin|pTRPhasePlugin||pTRPhasePlugin.md
+ 🖼️ pTopicRenderer|pTopicRenderer||pTopicRenderer.md
+Definice objektů|Definice objektů||objDef.md
+ ⚙️ Konfigurační volba|Konfigurační volba||cfgopt.md
+ ⚡ Událost|Událost||event.md
+ 👂 Obsluha události|Obsluha události||handler.md
+ ⭐ Zpracování javascript události|Zpracování javascript události||jsevent.md
+ UI prvky|UI prvky||uiobject.md
+  🔘 Tlačítko|Tlačítko||uibutton.md
+  🎛️ Karta|Karta||uitab.md
+  📂 Strom|Strom||uitree.md
+ 📦 Zdroj|Zdroj||resource.md
+ 🔀 Směrování kliknutí myši|Směrování kliknutí myši||routingmc.md
 🌐 Nový jazyk|Nový jazyk||newLangViewer.md
 Projekt HelpViewer|Projekt HelpViewer||helpviewer.md
  📜 Projektové dokumenty|Projektové dokumenty a politiky||?d=https://raw.githubusercontent.com/HelpViewer/.github/master/
