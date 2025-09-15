@@ -28,3 +28,7 @@ Systém pluginů i distribuce zpráv je vyvinut od základů, bez použití ciz�
   - pluginový kód (v **plugins.lst**).
 - knihovny třetích stran (oddělené, načítané jako samostatné moduly)
 - soubor implementačních dat - samostatný archiv v aplikaci logicky pojmenovaný jako **STO_HELP**
+
+**⚖️ Licence**: [MIT][MIT]
+
+[MIT]: https://github.com/HelpViewer/HelpViewer/blob/master/LICENSE "MIT licence"
