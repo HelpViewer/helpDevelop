@@ -22,7 +22,7 @@ flowchart LR
 
 ## 0. Význam hodnot aliasName (''/...)
 
-| Hodnota aliasName | Popis |
+| aliasName | Popis |
 |---|---|
 | '' | (Inicializace **třída:** v seznamu pluginů). Pokud je nastavena tato hodnota, plugin je schopný přijímat většinu zpráv systému (jsou běžně posílány s nevyplněným id). |
 | xxx | V případě jakkoli jinak vyplněné hodnoty o dalším zpracování rozhoduje vlastnost **eventIdStrict**. |
@@ -31,7 +31,7 @@ flowchart LR
 
 Obvyklá hodnota bývá **false**, aby plugin přijímal všechny události nezávisle na jejich id.
 
-| Hodnota eventIdStrict | Popis |
+| eventIdStrict | Popis |
 |---|---|
 | false | 🟢 Není filtrováno id příchozích událostí. Příchozí události se filtrují pouze obsluhami na pluginu, které se jmenují **onET_(jméno události)** nebo **onET(jméno události)** |
 | true | 🔺 Požadována striktní shoda id v událostech. Tedy pokud **aliasName** (**id** pluginu) a **id** v události se shodují, pak je událost předána pluginu. Aby plugin událost zpracoval, musí mít navíc definovanou metodu obsluhy **onET_(jméno události)** nebo **onET(jméno události)** |
