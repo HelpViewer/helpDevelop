@@ -94,4 +94,4 @@ Ukázka: 🖥️ [puiButtonTOC][cpuiButtonTOC]
 [puiButtonC]: puiButton.md#h-2-1 "puiButton"
 [cpuiButtonTOC]: :_cpp:puiButtonTOC.md "puiButtonTOC"
 [puiButtonObjectExplorer]: :_plg:puiButtonObjectExplorer.md "puiButtonObjectExplorer"
-[treedata]: ?d=hlp-aguide/Help-__.zip&p=mdata%2Ftree.lst.md "tree input data format"
+[treedata]: ?d=hlp-aguide/Help-__.zip&p=mdata%2Ftree.lst.md "Formát dat stromových struktur"
