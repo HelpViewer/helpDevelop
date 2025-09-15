@@ -83,6 +83,12 @@ jobs:
             echo "::endgroup::"
           done
           echo "exists=true" >> $GITHUB_OUTPUT
+          
+          dir=_base
+          cd $dir
+          zip -r -9 ../_output/Help-.zip .
+          cd ..
+          
           echo "Bundling finished."
 
       - name: Create tag
