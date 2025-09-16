@@ -30,6 +30,7 @@ UI elements|UI elements||uiobject.md
  🔘 Button|Button||uibutton.md
  🎛️ Tab|Tab||uitab.md
  📂 Tree|Tree||uitree.md
+📑 Documenting objects|Documenting objects||objDoc.md
 🌐 New language|New language||newLangViewer.md
 HelpViewer Project|HelpViewer Project||helpviewer.md
  📜 Project policies|Project policies and documents||?d=https://raw.githubusercontent.com/HelpViewer/.github/master/
