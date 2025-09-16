@@ -50,6 +50,12 @@ Plugins.catalogize(puiButtonFullScreen);
 
 - Descendants of the 🖥️ [puiButton][puiButton] class
 
+### Scenario: Button hidden in 📽 presentation mode
+
+```javascript
+this.button.classList.add(C_HIDDENCPRESMODE);
+```
+
 [ButtonSend]: :_evt:ButtonSend.md "ButtonSend"
 [ClickedEvent]: :_evt:ClickedEvent.md "ClickedEvent"
 [puiButton]: :_plg:puiButton.md "puiButton"

@@ -50,6 +50,12 @@ Plugins.catalogize(puiButtonFullScreen);
 
 - Potomci třídy 🖥️ [puiButton][puiButton]
 
+### Scénář: Tlačítko se schováním v 📽 prezentačním režimu
+
+```javascript
+this.button.classList.add(C_HIDDENCPRESMODE);
+```
+
 [ButtonSend]: :_evt:ButtonSend.md "ButtonSend"
 [ClickedEvent]: :_evt:ClickedEvent.md "ClickedEvent"
 [puiButton]: :_plg:puiButton.md "puiButton"
