@@ -60,7 +60,7 @@ Obecná struktura cesty odkazu:
 | ⭐ Javascript událost | **:_evtSys:pConvertSysEventToEvent:pPrePrintEvent:window.beforeprint.md** |
 | ⇄ Integrovaný proces | **:_grpproc:fulltextList.md** |
 | 📄 Výpis zdrojového kódu | **:_cpp:pui.md** |
-| 🏷️ Funkce třídy | **:_fn:pIndexFile:init.md** |
+| 🏷️ Funkce třídy | **:_fn:pIndexFile:keywordList:init.md** |
 
 Dokumentace pro autory popisuje jak [přidat odkaz do textu kapitoly][AuthDocLinks].
 

@@ -60,7 +60,7 @@ General link path structure:
 | ⭐ Javascript event | **:_evtSys:pConvertSysEventToEvent:pPrePrintEvent:window.beforeprint.md** |
 | ⇄ Integrated process | **:_grpproc:fulltextList.md** |
 | 📄 Source code listing | **:_cpp:pui.md** |
-| 🏷️ Class function | **:_fn:pIndexFile:init.md** |
+| 🏷️ Class function | **:_fn:pIndexFile:keywordList:init.md** |
 
 The documentation for authors describes how to [add a link to the chapter text][AuthDocLinks].
 
