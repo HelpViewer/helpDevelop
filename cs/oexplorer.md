@@ -28,7 +28,7 @@ Plugin zobrazuje například:
 
 Dále podporuje:
 
-- Vyhledání objektu podle jeho klíčového jména s přesností na podřízenou definici pluginu (vyhledávání podle jména javascript funkce zatím není možné)
+- Vyhledání objektu podle jeho klíčového jména s přesností na podřízenou definici pluginu
 - Vyhledání objektu podle jeho typu je možné zkopírováním symbolu typu (ikonky) do vyhledávacího řádku
 - Zobrazení formátovaného výpisu zdrojového kódu pluginu
 

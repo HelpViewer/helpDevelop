@@ -28,7 +28,7 @@ The plugin displays, for example:
 
 It also supports:
 
-- Searching for an object by its key name with accuracy down to the subordinate plugin definition (searching by JavaScript function name is not yet possible)
+- Searching for an object by its key name with accuracy down to the subordinate plugin definition
 - Searching for an object by its type is possible by copying the type symbol (icon) into the search bar
 - Displaying a formatted listing of the plugin source code
 
