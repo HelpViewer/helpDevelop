@@ -31,8 +31,9 @@ In the examples, the **en** subdirectory represents the language.
 | 👂 Event handler | **i/en/hdl_puiButtonKeywordIndex_keywordList_onETIndexFileLoaded.md** (puiButtonKeywordIndex is the name of the plugin class, keywordList is the name of the plugin instance, onETIndexFileLoaded is the full name of the event handler function on the code side) |
 | 🔘 UI element | **i/en/uiobject_puiButtonKeywordIndex_keywordList_downP-Glossary.md** (puiButtonKeywordIndex is the name of the plugin class, keywordList is the name of the plugin instance, downP-Glossary is the id of the html element id of the element) |
 | ⭐ Javascript event | **i/en/sysevent_pConvertSysEventToEvent_pPrePrintEvent_window.beforeprint.md** (pConvertSysEventToEvent is the name of the plugin class, pPrePrintEvent is the name of the plugin instance, window is the name of the HTML element to which the handler was attached, beforeprint is the name of the Javascript event) |
-| ⇄    Integrated process | **i/en/grpproc_fulltextList.md** (toc is the name of the integrated process - the name of the plugin instance) |
+| ⇄ Integrated process | **i/en/grpproc_fulltextList.md** (toc is the name of the integrated process - the name of the plugin instance) |
 | 📄 Source code listing | **i/en/cpp_pIndexFile.md** (pIndexFile is the name of the plugin class) |
+| 🏷️ Class function | **i/en/method_pIndexFile_keywordList_init.md** (pIndexFile is the name of the plugin class, keywordList is the name of the plugin instance, init is the name of the function) |
 
 ## Convention for linking to documentation from external help
 
@@ -57,8 +58,9 @@ General link path structure:
 | 🎛️ Card | **:_page:puiButtonObjectExplorer:-load:oexpP.md** |
 | 📂 Tree | **:_tree:puiButtonObjectExplorer:-load:objectList.md** |
 | ⭐ Javascript event | **:_evtSys:pConvertSysEventToEvent:pPrePrintEvent:window.beforeprint.md** |
-| ⇄    Integrated process | **:_grpproc:fulltextList.md** |
+| ⇄ Integrated process | **:_grpproc:fulltextList.md** |
 | 📄 Source code listing | **:_cpp:pui.md** |
+| 🏷️ Class function | **:_fn:pIndexFile:init.md** |
 
 The documentation for authors describes how to [add a link to the chapter text][AuthDocLinks].
 

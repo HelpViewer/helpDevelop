@@ -31,8 +31,9 @@ V ukázkách podadresář **en** zastupuje jazyk.
 | 👂 Obsluha události | **i/en/hdl_puiButtonKeywordIndex_keywordList_onETIndexFileLoaded.md** (puiButtonKeywordIndex je název třídy pluginu, keywordList název instance pluginu, onETIndexFileLoaded je úplný název obslužné funkce události na straně kódu) |
 | 🔘 UI prvek | **i/en/uiobject_puiButtonKeywordIndex_keywordList_downP-Glossary.md** (puiButtonKeywordIndex je název třídy pluginu, keywordList název instance pluginu, downP-Glossary je id html elementu id prvku) |
 | ⭐ Javascript událost | **i/en/sysevent_pConvertSysEventToEvent_pPrePrintEvent_window.beforeprint.md** (pConvertSysEventToEvent je název třídy pluginu, pPrePrintEvent název instance pluginu, window je název html prvku ke kterému byla obsluha připojena, beforeprint je název javascript události) |
-| ⇄	Integrovaný proces | **i/en/grpproc_fulltextList.md** (toc je název integrovaného procesu - název instance pluginu) |
+| ⇄ Integrovaný proces | **i/en/grpproc_fulltextList.md** (toc je název integrovaného procesu - název instance pluginu) |
 | 📄 Výpis zdrojového kódu | **i/en/cpp_pIndexFile.md** (pIndexFile je název třídy pluginu) |
+| 🏷️ Funkce třídy | **i/en/method_pIndexFile_keywordList_init.md** (pIndexFile je název třídy pluginu, keywordList název instance pluginu, init je název funkce) |
 
 ## Konvence odkazu na dokumentaci z vnější nápovědy
 
@@ -57,8 +58,9 @@ Obecná struktura cesty odkazu:
 | 🎛️ Karta | **:_page:puiButtonObjectExplorer:-load:oexpP.md** |
 | 📂 Strom | **:_tree:puiButtonObjectExplorer:-load:objectList.md** |
 | ⭐ Javascript událost | **:_evtSys:pConvertSysEventToEvent:pPrePrintEvent:window.beforeprint.md** |
-| ⇄	Integrovaný proces | **:_grpproc:fulltextList.md** |
+| ⇄ Integrovaný proces | **:_grpproc:fulltextList.md** |
 | 📄 Výpis zdrojového kódu | **:_cpp:pui.md** |
+| 🏷️ Funkce třídy | **:_fn:pIndexFile:init.md** |
 
 Dokumentace pro autory popisuje jak [přidat odkaz do textu kapitoly][AuthDocLinks].
 
