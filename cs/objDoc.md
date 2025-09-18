@@ -36,6 +36,7 @@ V ukázkách podadresář **en** zastupuje jazyk.
 | 🏷️ Funkce třídy | **i/en/method_pIndexFile_keywordList_init.md** (pIndexFile je název třídy pluginu, keywordList název instance pluginu, init je název funkce) |
 | 🌐 global | **i/en/g_global.md** |
 | 🌐 global -> 🏷️ funkce | **i/en/method_loadPluginList.md** (loadPluginList je název funkce) |
+| 🌐 global -> ⚪ proměnná | **i/en/var_srcJSOverride.md** (srcJSOverride je název proměnné/konstanty) |
 
 ## Konvence odkazu na dokumentaci z vnější nápovědy
 
@@ -65,6 +66,7 @@ Obecná struktura cesty odkazu:
 | 🏷️ Funkce třídy | **:_fn:pIndexFile:keywordList:init.md** |
 | 🌐 global | **:_g:global.md** |
 | 🌐 global -> 🏷️ funkce | **:_fn:loadPluginList.md** |
+| 🌐 global -> ⚪ proměnná | **:_var:srcJSOverride.md** |
 
 Dokumentace pro autory popisuje jak [přidat odkaz do textu kapitoly][AuthDocLinks].
 
