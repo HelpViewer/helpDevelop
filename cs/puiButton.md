@@ -12,7 +12,7 @@ Tento plugin je vhodný pro zajištění jednoduchého 🔘 tlačítka s akcí p
 |---|---|
 | ID | Id nového tlačítka. Musí být jedinečné napříč systémem, aby tlačítko nebylo propojeno s jinou akcí a nebo plugin jinou akci nepřepsal. |
 | CAPTION | Titulek nebo ikonka pro tlačítko. Pokud **ID** tlačítka je definované jako klíč v lokalizaci, data se přepíší hodnotou překladového klíče. |
-| TARGET | Cílový slot pro tlačítko. Obvyklé hodnoty: sidebar (boční panel), header (horní panel nad textem kapitoly). Hodnota může být jakákoli, avšak cílový plugin (páruje se podle ID pluginu) musí být schopen zpracovat událost ⚡ [ButtonSend][ButtonSend] jinak se tlačítko nikde nezobrazí. |
+| TARGET | Cílový slot pro tlačítko. Obvyklé hodnoty: sidebar (boční panel), header (horní panel nad textem kapitoly), bottom (dolní panel pod textem kapitoly, prázdný panel bývá skrytý). Hodnota může být jakákoli, avšak cílový plugin (páruje se podle ID pluginu) musí být schopen zpracovat událost ⚡ [ButtonSend][ButtonSend] jinak se tlačítko nikde nezobrazí. |
 
 ## Implementace
 

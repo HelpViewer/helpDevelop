@@ -12,7 +12,7 @@ This plugin is suitable for providing a simple 🔘 button with an action for th
 |---|---|
 | ID | ID of the new button. It must be unique across the system so that the button is not linked to another action and the plugin does not overwrite another action. |
 | CAPTION | Caption or icon for the button. If the **ID** of the button is defined as a key in localization, the data will be overwritten with the value of the translation key. |
-| TARGET | Target slot for the button. Common values: sidebar (side panel), header (top panel above the chapter text). The value can be anything, but the target plugin (matched by plugin ID) must be able to handle the ⚡ [ButtonSend][ButtonSend] event, otherwise the button will not be displayed anywhere. |
+| TARGET | Target slot for the button. Common values: sidebar (side panel), header (top panel above the chapter text), bottom (bottom panel below the chapter text, empty panel is usually hidden). The value can be anything, but the target plugin (matched by plugin ID) must be able to handle the ⚡ [ButtonSend][ButtonSend] event, otherwise the button will not be displayed anywhere. |
 
 ## Implementation
 
