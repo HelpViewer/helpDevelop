@@ -34,6 +34,8 @@ In the examples, the **en** subdirectory represents the language.
 | ⇄ Integrated process | **i/en/grpproc_fulltextList.md** (toc is the name of the integrated process - the name of the plugin instance) |
 | 📄 Source code listing | **i/en/cpp_pIndexFile.md** (pIndexFile is the name of the plugin class) |
 | 🏷️ Class function | **i/en/method_pIndexFile_keywordList_init.md** (pIndexFile is the name of the plugin class, keywordList is the name of the plugin instance, init is the name of the function) |
+| 🌐 global | **i/en/g_global.md** |
+| 🌐 global -> 🏷️ function | **i/en/method_loadPluginList.md** (loadPluginList is the name of the function) |
 
 ## Convention for linking to documentation from external help
 
@@ -61,6 +63,8 @@ General link path structure:
 | ⇄ Integrated process | **:_grpproc:fulltextList.md** |
 | 📄 Source code listing | **:_cpp:pui.md** |
 | 🏷️ Class function | **:_fn:pIndexFile:keywordList:init.md** |
+| 🌐 global | **:_g:global.md** |
+| 🌐 global -> 🏷️ function | **:_fn:loadPluginList.md** |
 
 The documentation for authors describes how to [add a link to the chapter text][AuthDocLinks].
 

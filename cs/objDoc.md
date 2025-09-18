@@ -34,6 +34,8 @@ V ukázkách podadresář **en** zastupuje jazyk.
 | ⇄ Integrovaný proces | **i/en/grpproc_fulltextList.md** (toc je název integrovaného procesu - název instance pluginu) |
 | 📄 Výpis zdrojového kódu | **i/en/cpp_pIndexFile.md** (pIndexFile je název třídy pluginu) |
 | 🏷️ Funkce třídy | **i/en/method_pIndexFile_keywordList_init.md** (pIndexFile je název třídy pluginu, keywordList název instance pluginu, init je název funkce) |
+| 🌐 global | **i/en/g_global.md** |
+| 🌐 global -> 🏷️ funkce | **i/en/method_loadPluginList.md** (loadPluginList je název funkce) |
 
 ## Konvence odkazu na dokumentaci z vnější nápovědy
 
@@ -61,6 +63,8 @@ Obecná struktura cesty odkazu:
 | ⇄ Integrovaný proces | **:_grpproc:fulltextList.md** |
 | 📄 Výpis zdrojového kódu | **:_cpp:pui.md** |
 | 🏷️ Funkce třídy | **:_fn:pIndexFile:keywordList:init.md** |
+| 🌐 global | **:_g:global.md** |
+| 🌐 global -> 🏷️ funkce | **:_fn:loadPluginList.md** |
 
 Dokumentace pro autory popisuje jak [přidat odkaz do textu kapitoly][AuthDocLinks].
 
