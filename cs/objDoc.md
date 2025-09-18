@@ -13,7 +13,7 @@ V rámci této zvláštní nápovědy přidáváte pouze soubory .md. Strom ani 
 Obecná struktura umístění:  
 **i/(jazyk, zkratka dle ISO 639-1)/(zkratka typu objektu)_(jméno třídy pluginu)\_(jméno instance pluginu)\_(jméno objektu).md**
 
-V případě prblémů s nezobrazováním textu můžete přesné předpokládané umístění také získat ze zpráv z **dev konzole prohlížeče** (úroveň Warning, zpráva začíná textem: 'ObjectExplorer: requested path:').
+V případě problémů s nezobrazováním textu můžete přesné předpokládané umístění také získat ze zpráv z **dev konzole prohlížeče** (úroveň Warning, zpráva začíná textem: 'ObjectExplorer: requested path:').
 
 V ukázkách podadresář **en** zastupuje jazyk.
 
