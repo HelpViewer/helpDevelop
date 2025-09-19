@@ -38,7 +38,7 @@ Komponenta nadefinuje standardní HTML ul element, které je upravený CSS tří
 - const id - id nadřízené karty
 - TI.cfgTreeId - id nového stromu
 - uiAddTreeView - založí novou komponentu stromu
-- registerOnClick - přidá do seznamu obsluh kliknutí myši základní předponu všech položek nového stromu. Je vhodné, aby id stromu bylo jedinečné napříč systémem, aby se obsluhy navzájem pluginů nepřepsaly
+- registerOnClick - přidá do seznamu obsluh kliknutí myši základní předponu všech položek nového stromu. Je vhodné, aby id stromu bylo jedinečné napříč systémem, aby se obsluhy pluginů navzájem nepřepsaly
 - _notifyClickedEvent - odešle událost ⚡ [ClickedEventTree][ClickedEventTree], kterou dále zpracuje plugin 🖥️ [pui][pui] a to zalogováním, případně odesláním události ⚡ [ClickedEventNotForwarded][ClickedEventNotForwarded] pokud se nepodaří najít událost pro základní předponu položek
 
 [ClickedEventTree]: :_evt:ClickedEventTree.md "ClickedEventTree"
