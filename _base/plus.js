@@ -1,3 +1,3 @@
 const pluginWatermark = 'puiWatermark';
 deactivatePlugin(pluginWatermark);
-lc_activatePlugin(pluginWatermark, '', source = STO_HELP);
+activatePlugin(pluginWatermark, '', source = STO_HELP);
