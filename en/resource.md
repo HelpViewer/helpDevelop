@@ -59,8 +59,6 @@ Examples of implementations of this plugin differ in individual implementations,
 - 🖼️ [pTRParsePrism][pTRParsePrism] - Syntax highlighting in code listings
 - 🖼️ [pTRParseMermaid][pTRParseMermaid] - Rendering Mermaid graphs from text definitions
 
-Translated with DeepL.com (free version)
-
 [Resource]: :_plg:Resource.md "Resource"
 [oexplorer]: oexplorer.md "Object explorer"
 [pTRParseMd]: :_plg:pTRParseMd.md "pTRParseMd"

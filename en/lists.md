@@ -2,6 +2,7 @@
 
 The following lists are important for the proper functioning of the HelpViewer application:
 
+- List of external dependencies (deps.lst) (used only by CI for building the release package)
 - List of styles (css.lst)
 - Script list (js.lst)
 - Plugin list (plugins.lst)

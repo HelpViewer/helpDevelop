@@ -2,6 +2,7 @@
 
 Pro správné fungování aplikace HelpViewer jsou důležité následující seznamy:
 
+- Seznam externích závislostí (deps.lst) (je použit pouze pro sestavení balíčku vydání)
 - Seznam stylů (css.lst)
 - Seznam skriptů (js.lst)
 - Seznam pluginů (plugins.lst)

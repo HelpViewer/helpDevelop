@@ -3,6 +3,7 @@ Dokumentace pro vývojáře|Dokumentace pro vývojáře||README.md
 🛠️ Použité technologie|Použité technologie a součásti||techstack.md
 ▶️ Spouštěcí sekvence|Spouštěcí sekvence||runseq.md
 Seznamy|Seznamy||lists.md
+ 📄 Seznam závislostí (deps.lst)|Seznam externích závislostí (deps.lst)||deps.lst.md
  📄 Seznam stylů (css.lst)|Seznam stylů (css.lst)||css.lst.md
  📄 Seznam skriptů (js.lst)|Seznam skriptů (js.lst)||js.lst.md
  📄 Seznam pluginů (plugins.lst)|Seznam pluginů (plugins.lst)||plugins.lst.md

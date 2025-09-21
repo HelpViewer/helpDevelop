@@ -3,6 +3,7 @@ Documentation for developers|Documentation for developers||README.md
 🛠️ Used technologies|Used technologies||techstack.md
 ▶️ Startup sequence|Startup sequence||runseq.md
 Lists|Lists||lists.md
+ 📄 List of dependencies (deps.lst)|List of external dependencies (deps.lst)||deps.lst.md
  📄 List of styles (css.lst)|List of styles (css.lst)||css.lst.md
  📄 List of scripts (js.lst)|List of scripts (js.lst)||js.lst.md
  📄 List of plugins (plugins.lst)|List of plugins (plugins.lst)||plugins.lst.md
