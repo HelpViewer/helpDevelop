@@ -6,10 +6,14 @@ Konfigurační volba zastupuje ⚙️ [konfiguraci pluginů][cfgPlug] na straně
 
 ```javascript
 class pConfigValuePlugin extends IPlugin {
+  constructor() {
+    super();
+    this.DEFAULT_KEY_CFG_FILENAME = 'marked.min.js;LICENSE-marked.md';
+  }
+
   init() {
     const T = this.constructor;
     const TI = this;
-    TI.DEFAULT_KEY_CFG_FILENAME = 'marked.min.js;LICENSE-marked.md';
     // TI.cfgFILENAME
     super.init();
   }
