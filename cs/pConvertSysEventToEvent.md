@@ -72,7 +72,6 @@ Plugins.catalogize(pClickConverter);
 
 - ClickedEvent je objekt cílové události na straně aplikace.
 - **ClickedEvent.register()** provede registraci objektu události do katalogu (informaci o tomto zápisu najdete v **puiButtonObjectExplorer** v **Strom dědičnosti**, kapitola **Odkaz**). Toto je nutné z důvodu nemožnosti javascriptu provádět rozšířenou detekci objektů podle jmen. Toto jméno musíte mít také uvedeno v konfiguraci v **EVENTBUSEVENT**.
-- Řádky **this.DEFAULT_KEY_CFG_** buďto v kódu ponechte nebo je můžete zcela odebrat. Konfigurace z bodu 1 je přepisuje.
 - Funkce _fillEventObject(d, evt) provádí samotnou konverzi evt (javascript systémové události) na d (cílová událost na straně aplikace).
 - Volání **Plugins.catalogize(pMinPlugin);** je povinné. Provede zavedení pluginu do katalogu načtených pluginů.
 

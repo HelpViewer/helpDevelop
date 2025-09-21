@@ -6,13 +6,11 @@ The configuration option represents ⚙️ [plugin configuration][cfgPlug] on th
 
 ```javascript
 class pConfigValuePlugin extends IPlugin {
-  static KEY_CFG_FILENAME = 'FILENAME';
-
   init() {
     const T = this.constructor;
     const TI = this;
     TI.DEFAULT_KEY_CFG_FILENAME = 'marked.min.js;LICENSE-marked.md';
-    TI.cfgFileName = TI.config[T.KEY_CFG_FILENAME] || TI.DEFAULT_KEY_CFG_FILENAME;
+    // TI.cfgFILENAME
     super.init();
   }
 }
@@ -29,13 +27,13 @@ FILENAME|README.md
 
 [Example on the object browser page][pTRParseMd]
 
-If the key from the **KEY_CFG_FILENAME** constant is not found in the configuration file, the value **DEFAULT_KEY_CFG_FILENAME** is used.
+If the **FILENAME** key is not found in the configuration file, the value **DEFAULT_KEY_CFG_FILENAME** will be used.
 
 ### Meaning of variables
 
-- KEY_CFG_FILENAME - name of the configuration key on the configuration side
-- DEFAULT_KEY_CFG_FILENAME - default value for the configuration key
-- ⚠️ DEFAULT_**KEY_CFG_FILENAME** and **KEY_CFG_FILENAME** must match in name so that the object browser can correctly evaluate the configuration option and link the name and default (backup) value.
+- DEFAULT_KEY_CFG_**FILENAME** - default value for the configuration key (defines the configuration key, the value can be undefined)
+- **FILENAME** - name of the configuration option
+- In the plugin, you can access the configuration value via this.cfg**FILENAME** or this.config['FILENAME']
 
 ## Records 📄⚙️
 

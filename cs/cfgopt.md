@@ -6,13 +6,11 @@ Konfigurační volba zastupuje ⚙️ [konfiguraci pluginů][cfgPlug] na straně
 
 ```javascript
 class pConfigValuePlugin extends IPlugin {
-  static KEY_CFG_FILENAME = 'FILENAME';
-
   init() {
     const T = this.constructor;
     const TI = this;
     TI.DEFAULT_KEY_CFG_FILENAME = 'marked.min.js;LICENSE-marked.md';
-    TI.cfgFileName = TI.config[T.KEY_CFG_FILENAME] || TI.DEFAULT_KEY_CFG_FILENAME;
+    // TI.cfgFILENAME
     super.init();
   }
 }
@@ -29,13 +27,13 @@ FILENAME|README.md
 
 [Ukázka na straně prohlížeče objektů][pTRParseMd]
 
-Pokud se v konfiguračním souboru nenajde klíč z konstanty **KEY_CFG_FILENAME**, použije se hodnota **DEFAULT_KEY_CFG_FILENAME**.
+Pokud se v konfiguračním souboru nenajde klíč **FILENAME**, použije se hodnota **DEFAULT_KEY_CFG_FILENAME**.
 
 ### Význam proměnných
 
-- KEY_CFG_FILENAME - jméno konfiguračního klíče na straně konfigurace
-- DEFAULT_KEY_CFG_FILENAME - defaultní hodnota pro konfigurační klíč
-- ⚠️ DEFAULT_**KEY_CFG_FILENAME** a **KEY_CFG_FILENAME** se musí svým názvem objektu shodovat, aby prohlížeč objektů konfigurační volbu správně vyhodnotil a propojil název i výchozí (záložní) hodnotu.
+- DEFAULT_KEY_CFG_**FILENAME** - defaultní hodnota pro konfigurační klíč (definuje konfigurační klíč, hodnota může být undefined)
+- **FILENAME** - název konfigurační volby
+- V pluginu ke konfigurační hodnotě přistupujete přes this.cfg**FILENAME** nebo this.config['FILENAME']
 
 ## Záznamy 📄⚙️
 

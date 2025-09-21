@@ -72,7 +72,6 @@ Plugins.catalogize(pClickConverter);
 
 - ClickedEvent is the target event object on the application side.
 - **ClickedEvent.register()** registers the event object in the catalog (information about this entry can be found in **puiButtonObjectExplorer** in **Inheritance Tree**, chapter **Reference**). This is necessary because JavaScript cannot perform extended object detection by name. You must also include this name in the configuration in **EVENTBUSEVENT**.
-- You can either leave the **this.DEFAULT_KEY_CFG_** lines in the code or remove them completely. The configuration from point 1 overwrites them.
 - The _fillEventObject(d, evt) function performs the actual conversion of evt (JavaScript system event) to d (target event on the application side).
 - Calling **Plugins.catalogize(pMinPlugin);** is mandatory. It adds the plugin to the catalog of loaded plugins.
 
