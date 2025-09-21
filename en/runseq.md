@@ -63,6 +63,11 @@ More general phase descriptions will appear in the documentation. These terms wi
    11. STO_?:appmainNext.js (loading)
    12. STO_HELP:plus.css (loading)
    13. STO_HELP:plus.js (loading)
-   14. ⚡ [PluginsLoadingFinished][PluginsLoadingFinished]
+   14. ⚡ [PluginsLoadingFinished][PluginsLoadingFinished] for STO_DATA
+   15. STO_HELP:plugins.lst (if it exists)
+   16. ⚡ [PluginsLoadingFinished][PluginsLoadingFinished] for STO_HELP
+
+🏷️ [runApp][runApp]
 
 [PluginsLoadingFinished]: :_evt:PluginsLoadingFinished.md "PluginsLoadingFinished"
+[runApp]: :_fn:runApp.md "runApp()"

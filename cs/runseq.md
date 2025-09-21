@@ -63,6 +63,11 @@ V dokumentaci se budou objevovat obecnější názvy popisů fází. Tyto pojmy 
    11. STO_?:appmainNext.js (zavedení)
    12. STO_HELP:plus.css (zavedení)
    13. STO_HELP:plus.js (zavedení)
-   14. ⚡ [PluginsLoadingFinished][PluginsLoadingFinished]
+   14. ⚡ [PluginsLoadingFinished][PluginsLoadingFinished] pro STO_DATA
+   15. STO_HELP:plugins.lst (pokud existuje)
+   16. ⚡ [PluginsLoadingFinished][PluginsLoadingFinished] pro STO_HELP
+
+🏷️ [runApp][runApp]
 
 [PluginsLoadingFinished]: :_evt:PluginsLoadingFinished.md "PluginsLoadingFinished"
+[runApp]: :_fn:runApp.md "runApp()"
