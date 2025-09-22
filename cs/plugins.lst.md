@@ -5,6 +5,11 @@
 - Jeden řádek = jedna položka
 - Zalomení řádku uprostřed definice není povoleno
 
+## Umístění
+
+- Soubor dat aplikace: zip/plugins.lst
+- Soubor nápovědy: helpProject/_base/plugins.lst
+
 ## Struktura souboru
 
 ```text

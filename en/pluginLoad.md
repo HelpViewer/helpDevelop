@@ -10,7 +10,7 @@ There are two ways to load a plugin instance in the application:
 ```javascript
 const pluginName = 'puiButtonObjectExplorer';
 const pluginId = '-load';
-await loadPlugin(pluginName, loadPluginListBasePath(pluginName));
+await loadPlugin(pluginName, loadPluginListBasePath(pluginName), STO_DATA);
 await activatePlugin(pluginName, pluginId);
 ```
 
@@ -18,7 +18,7 @@ await activatePlugin(pluginName, pluginId);
 |---|---|
 | pluginName | Name of the plugin class |
 | loadPlugin | Ensures that the plugin class is loaded if it has not been loaded yet. |
-| loadPluginListBasePath(pluginName) | Function that ensures the correct path to the plugin file within the data package is constructed. Assumes that the plugin file will be located in **plugins/(pluginName).js** |
+| loadPluginListBasePath(pluginName) | Function that ensures the correct path to the plugin file within the data package is constructed. Assumes that the plugin file will be located in **plugins/(pluginName).js**. The third parameter specifies which storage to search: STO_DATA is the default, another option is STO_HELP. |
 | activatePlugin | Ensures that a new instance of the **pluginName** plugin with id **pluginId** is created |
 
 ## Removing a plugin during runtime

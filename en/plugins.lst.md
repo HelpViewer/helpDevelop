@@ -5,6 +5,11 @@
 - One line = one item
 - Line breaks in the middle of a definition are not allowed
 
+## Location
+
+- Application data file: zip/plugins.lst
+- Help file: helpProject/_base/plugins.lst
+
 ## File structure
 
 ```text

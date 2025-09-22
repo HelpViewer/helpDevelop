@@ -10,7 +10,7 @@ Zavést instanci pluginu je v aplikaci možné dvěma způsoby:
 ```javascript
 const pluginName = 'puiButtonObjectExplorer';
 const pluginId = '-load';
-await loadPlugin(pluginName, loadPluginListBasePath(pluginName));
+await loadPlugin(pluginName, loadPluginListBasePath(pluginName), STO_DATA);
 await activatePlugin(pluginName, pluginId);
 ```
 
@@ -18,7 +18,7 @@ await activatePlugin(pluginName, pluginId);
 |---|---|
 | pluginName | Jméno třídy pluginu |
 | loadPlugin | Zajistí načtení třídy pluginu, pokud zatím načtena nebyla. |
-| loadPluginListBasePath(pluginName) | Funkce, která zajistí sestavení správné cesty k souboru pluginu uvnitř balíku dat. Předpokládá, že se soubor pluginu bude nacházet v **plugins/(pluginName).js** |
+| loadPluginListBasePath(pluginName) | Funkce, která zajistí sestavení správné cesty k souboru pluginu uvnitř balíku dat. Předpokládá, že se soubor pluginu bude nacházet v **plugins/(pluginName).js**. Třetí parametr specifikuje, které úložiště se má prohlédávat: STO_DATA je výchozí, další možností je STO_HELP. |
 | activatePlugin | Zajistí vytvoření nové instance pluginu **pluginName** s id **pluginId** |
 
 ## Odebrání pluginu za běhu
