@@ -56,6 +56,12 @@ Plugins.catalogize(puiButtonFullScreen);
 this.button.classList.add(C_HIDDENCPRESMODE);
 ```
 
+### Scenario: Closing the side panel only on mobile devices
+
+```javascript
+sendEvent(evtHideIfTooWide);
+```
+
 [ButtonSend]: :_evt:ButtonSend.md "ButtonSend"
 [ClickedEvent]: :_evt:ClickedEvent.md "ClickedEvent"
 [puiButton]: :_plg:puiButton.md "puiButton"

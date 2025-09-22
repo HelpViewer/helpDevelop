@@ -56,6 +56,12 @@ Plugins.catalogize(puiButtonFullScreen);
 this.button.classList.add(C_HIDDENCPRESMODE);
 ```
 
+### Scénář: Zavření bočního panelu pouze na mobilním zažízení
+
+```javascript
+sendEvent(evtHideIfTooWide);
+```
+
 [ButtonSend]: :_evt:ButtonSend.md "ButtonSend"
 [ClickedEvent]: :_evt:ClickedEvent.md "ClickedEvent"
 [puiButton]: :_plg:puiButton.md "puiButton"
