@@ -55,7 +55,7 @@ zobrazí kartu komponenty na panelu.
 
 - 🖥️ [puiButtonChangeLanguage][puiButtonChangeLanguage]
 
-### Scénář: Tlačítko s akcemi podle viditelnosti záložky - _buttonAction(evt)
+### Tlačítko s akcemi podle viditelnosti záložky - _buttonAction(evt)
 
 Pokud funkci _buttonAction nadefinujete tímto způsobem:
 

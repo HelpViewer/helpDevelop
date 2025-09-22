@@ -55,7 +55,7 @@ displays the component card on the panel.
 
 - 🖥️ [puiButtonChangeLanguage][puiButtonChangeLanguage]
 
-### Scenario: Button with actions based on tab visibility - _buttonAction(evt)
+### Button with actions based on tab visibility - _buttonAction(evt)
 
 If you define the _buttonAction function this way:
 

@@ -70,7 +70,7 @@ zobrazí kartu komponenty na panelu.
 
 - 🖥️ [puiButtonObjectExplorer][puiButtonObjectExplorer] a další potomci 🖥️ [puiButtonTabTree][puiButtonTabTree]
 
-### Scénář: Tlačítko s akcí otevři/zavři vše
+### Tlačítko s akcí otevři/zavři vše
 
 Pokud funkci _buttonAction nadefinujete tímto způsobem:
 

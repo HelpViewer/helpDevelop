@@ -50,13 +50,13 @@ Plugins.catalogize(puiButtonFullScreen);
 
 - Potomci třídy 🖥️ [puiButton][puiButton]
 
-### Scénář: Tlačítko se schováním v 📽 prezentačním režimu
+### Tlačítko se schováním v 📽 prezentačním režimu
 
 ```javascript
 this.button.classList.add(C_HIDDENCPRESMODE);
 ```
 
-### Scénář: Zavření bočního panelu pouze na mobilním zažízení
+### Zavření bočního panelu pouze na mobilním zažízení
 
 ```javascript
 sendEvent(evtHideIfTooWide);

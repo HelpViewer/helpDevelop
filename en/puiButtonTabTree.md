@@ -70,7 +70,7 @@ displays the component card on the panel.
 
 - 🖥️ [puiButtonObjectExplorer][puiButtonObjectExplorer] and other descendants 🖥️ [puiButtonTabTree][puiButtonTabTree]
 
-### Scenario: Button with open/close all action
+### Button with open/close all action
 
 If you define the _buttonAction function in this way:
 

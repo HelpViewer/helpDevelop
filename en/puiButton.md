@@ -50,13 +50,13 @@ Plugins.catalogize(puiButtonFullScreen);
 
 - Descendants of the 🖥️ [puiButton][puiButton] class
 
-### Scenario: Button hidden in 📽 presentation mode
+### Button hidden in 📽 presentation mode
 
 ```javascript
 this.button.classList.add(C_HIDDENCPRESMODE);
 ```
 
-### Scenario: Closing the side panel only on mobile devices
+### Closing the side panel only on mobile devices
 
 ```javascript
 sendEvent(evtHideIfTooWide);
