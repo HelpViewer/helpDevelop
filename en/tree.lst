@@ -13,6 +13,7 @@ Lists|Lists||lists.md
  📑 Loading plugins|Loading plugins||pluginLoad.md
  ⚙️ Plugin configuration|Plugin configuration||pluginConfig.md
  🔺 Filtering events in plugins|Filtering events in plugins||eventFilter.md
+ 🌐 Localization|Plugin localization||plugLocStrings.md
 Plugin implementation|Plugin implementation||implPlug.md
  🖥️ puiButton|puiButton||puiButton.md
  🖥️ puiButtonTab|puiButtonTab||puiButtonTab.md
