@@ -20,7 +20,7 @@
 
 ```javascript
 var _lstr = {
-  'key' : () => `value ${global-variable}`,
+  'key' : (s) => `value ${global-variable} or ${s.something-in-strings}`,
 }; 
 ```
 

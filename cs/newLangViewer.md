@@ -20,7 +20,7 @@
 
 ```javascript
 var _lstr = {
-  'klic' : () => `hodnota ${globalni-promenna}`,
+  'klic' : (s) => `hodnota ${globalni-promenna} nebo ${s.neco-poslaneho-ve-strings}`,
 }; 
 ```
 
