@@ -44,6 +44,26 @@ Dále podporuje:
 2. ⚠️ Pro úplný seznam objektů je nutné, aby byla daná funkcionalita v rámci relace alespoň jednou provedena.
 3. Indexovány jsou pouze pojmenované funkce a objekty, které plugin vystavuje přes **this**.
 
+### Ruční indexace volání události
+
+I přes maximální snahu automatizovat indexaci zasílání událostí mezi pluginy může docházet k situacím, kdy všechna volání události nejsou spolehlivě zachycena. 
+
+V takovýchto případech můžete na úrovni pluginu zavést informaci o volání události ručně tímto způsobem:
+
+```javascript
+  init() {
+    super.init();
+
+    const TI = this;
+    TI.catalogizeEventCall(TI._pluginActivated, EventNames.LocAppend);
+  }
+```
+
+(výpis zkrácen na init funkci)
+
+- EventNames.LocAppend - je jméno zasílané události (LocAppend). Alternativně je možno zapsat i "LocAppend".
+- TI._pluginActivated je metoda uvnitř pluginu, která zaslání události provádí (sendEvent)
+
 [PlgsList]: plugins.lst.md "Seznam pluginů"
 [OEGroups]: :_/README.md "Seznam kategorií"
 [OETree]: :_/tree/TREE.md "Strom dědičností"

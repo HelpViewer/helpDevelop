@@ -44,6 +44,26 @@ It also supports:
 2. ⚠️ For a complete list of objects, the functionality must be executed at least once during the session.
 3. Only named functions and objects that the plugin exposes via **this** are indexed.
 
+### Manual event call indexing
+
+Despite our best efforts to automate the indexing of event sending between plugins, there may be situations where not all event calls are reliably captured. 
+
+In such cases, you can manually enter event call information at the plugin level as follows:
+
+```javascript
+  init() {
+    super.init();
+
+    const TI = this;
+    TI.catalogizeEventCall(TI._pluginActivated, EventNames.LocAppend);
+  }
+```
+
+(excerpt shortened to init function)
+
+- EventNames.LocAppend - is the name of the event being sent (LocAppend). Alternatively, you can also write "LocAppend".
+- TI._pluginActivated is a method within the plugin that sends the event (sendEvent).
+
 [PlgsList]: plugins.lst.md "List of plugins"
 [OEGroups]: :_/README.md "Object categories list"
 [OETree]: :_/tree/TREE.md "Dependency tree"
