@@ -20,7 +20,7 @@ and then proceed according to the **Program package** chapter.
 
 If you want to add the plugin to the HelpViewer build:
 
-3. Add the plugin to the [plugins] list with a definition line: 
+3. Add the plugin to the [plugins list] with a definition line: 
    - **[class name]** if the plugin is only to be loaded (it is a parent for other plugins, but is not intended to work independently)
    - **[class name]:[instance name]** if the plugin is to be loaded and is intended to provide functionality
 4. Place the configuration definitions for the new instance in **zip/plugins-config/[class name]_[instance name].cfg**.
@@ -63,10 +63,21 @@ Plugins.catalogize(pMinPlugin);
 |---|---|
 | 🔌 [IPlugin][IPlugin] | Basic plugin for all plugins in the system. Provides basic functions for a general plugin. It is intended for service plugins or event listeners that do not provide any user interface elements themselves. |
 | 🔌 [pConvertSysEventToEvent][pConvertSysEventToEvent] | The plugin converts a defined JavaScript event into an application event that can be captured by another plugin. |
-| 🖼️ [pTRPhasePlugin][pTRPhasePlugin] | The plugin receives the ⚡ [ShowChapterResolutions][ShowChapterResolutions] event from the 🖼️ [pTopicRenderer][pTopicRenderer] plugin and performs a single step of process handling. One of its applications is, for example, parsing an md file for listing into chapter text. |
+| 🔌 [pServicePlugin][pServicePlugin] | Plugin for extended services. It is based on handlers connected to plugin events 🔌 [pPluginManagement][pPluginManagement]. |
+
+### User interface
+
+| Name | Description |
+|---|---|
 | 🖥️ [puiButton][puiButton] | 🔘 Button for the user interface. The action handler must be part of the plugin source. |
 | 🖥️ [puiButtonTab][puiButtonTab] | 🔘🎛️ Sidebar button and tab. |
 | 🖥️ [puiButtonTabTree][puiButtonTabTree] | 🔘🎛️📂 Sidebar button and tab with tree component. |
+
+### Chapter text rendering
+
+| Name | Description |
+|---|---|
+| 🖼️ [pTRPhasePlugin][pTRPhasePlugin] | The plugin receives the ⚡ [ShowChapterResolutions][ShowChapterResolutions] event from the 🖼️ [pTopicRenderer][pTopicRenderer] plugin and performs a single step of process handling. One of its applications is, for example, parsing an md file for listing into chapter text. |
 
 ## Implementation examples
 
@@ -82,3 +93,5 @@ Plugins.catalogize(pMinPlugin);
 [puiButtonTab]:puiButtonTab.md "puiButtonTab"
 [puiButtonTabTree]: puiButtonTabTree.md "puiButtonTabTree"
 [plugins]: plugins.lst.md "List of plugins"
+[pServicePlugin]: pServicePlugin.md "pServicePlugin"
+[pPluginManagement]: :_plg:pPluginManagement.md "pPluginManagement"

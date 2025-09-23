@@ -20,7 +20,7 @@ a dále postupujte podle kapitoly **Balík programu**.
 
 Pokud plugin chcete přidat do sestavení HelpVieweru:
 
-3. Do seznamu [pluginů][plugins] zaveďte plugin definičním řádkem: 
+3. Do [seznamu pluginů][plugins] zaveďte plugin definičním řádkem: 
    - **[jméno třídy]** pokud má být plugin pouze načten (je předkem pro jiné pluginy, ale není určen k samostatné práci)
    - **[jméno třídy]:[jméno instance]** pokud má být plugin načten a je určen k zajištění funkcionality
 4. Do umístění **zip/plugins-config/[jméno třídy]_[jméno instance].cfg** vložte konfigurační definice pro novou instanci.
@@ -63,10 +63,21 @@ Plugins.catalogize(pMinPlugin);
 |---|---|
 | 🔌 [IPlugin][IPlugin] | Základní plugin pro všechny pluginy v systému. Poskytuje základní funkce pro obecný plugin. Je určen pro pluginy služeb nebo posluchačů událostí, které samy nebudou zajišťovat žádný prvek uživatelského rozhraní. |
 | 🔌 [pConvertSysEventToEvent][pConvertSysEventToEvent] | Plugin převádí definovanou javascript událost na událost aplikace, která může být zachycena jiným pluginem. |
-| 🖼️ [pTRPhasePlugin][pTRPhasePlugin] | Plugin přijímá událost ⚡ [ShowChapterResolutions][ShowChapterResolutions] od pluginu 🖼️ [pTopicRenderer][pTopicRenderer] a provede jednotlivý krok procesního zpracování. Jednou z jeho aplikací je například parsování md souboru pro výpis do textu kapitoly. |
+| 🔌 [pServicePlugin][pServicePlugin] | Plugin pro rozšiřující služby. Základem jsou obsluhy napojené na události pluginu 🔌 [pPluginManagement][pPluginManagement]. |
+
+### Uživatelské rozhraní
+
+| Název | Popis |
+|---|---|
 | 🖥️ [puiButton][puiButton] | 🔘 Tlačítko pro uživatelské rozhraní. Obsluha akce musí být součástí zdroje pluginu. |
 | 🖥️ [puiButtonTab][puiButtonTab] | 🔘🎛️ Tlačítko a karta bočního panelu. |
 | 🖥️ [puiButtonTabTree][puiButtonTabTree] | 🔘🎛️📂 Tlačítko a karta bočního panelu s komponentou strom. |
+
+### Výpis textu kapitol
+
+| Název | Popis |
+|---|---|
+| 🖼️ [pTRPhasePlugin][pTRPhasePlugin] | Plugin přijímá událost ⚡ [ShowChapterResolutions][ShowChapterResolutions] od pluginu 🖼️ [pTopicRenderer][pTopicRenderer] a provede jednotlivý krok procesního zpracování. Jednou z jeho aplikací je například parsování md souboru pro výpis do textu kapitoly. |
 
 ## Příklady implementací
 
@@ -82,3 +93,5 @@ Plugins.catalogize(pMinPlugin);
 [puiButtonTab]:puiButtonTab.md "puiButtonTab"
 [puiButtonTabTree]: puiButtonTabTree.md "puiButtonTabTree"
 [plugins]: plugins.lst.md "Seznam pluginů"
+[pServicePlugin]: pServicePlugin.md "pServicePlugin"
+[pPluginManagement]: :_plg:pPluginManagement.md "pPluginManagement"
