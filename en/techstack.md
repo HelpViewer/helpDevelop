@@ -21,6 +21,7 @@
 ## 📦 Distribution
 
 - 🗜️ ZIP archive
+- 🐳 Docker/Podman container
 
 ## ⚙️ Build
 

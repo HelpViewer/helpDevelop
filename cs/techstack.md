@@ -21,6 +21,7 @@
 ## 📦 Distribuce
 
 - 🗜️ ZIP archiv
+- 🐳 Kontejner pro Docker/Podman
 
 ## ⚙️ Sestavení
 
