@@ -20,8 +20,8 @@
 
 ## 📦 Distribuce
 
-- 🗜️ ZIP archiv
-- 🐳 Kontejner pro Docker/Podman
+- 🗜️ [ZIP archiv][DZIP]
+- 🐳 [Kontejner pro Docker/Podman][DCONT]
 
 ## ⚙️ Sestavení
 
@@ -32,3 +32,5 @@
 [Mermaid]: https://mermaid.js.org/ "Mermaid - vykresluje grafy a schémata podle speciálních textových definic"
 [Prism]: https://prismjs.com/ "Prism - zvýraznění syntaxe výpisů kódu"
 [HVRepo]: https://github.com/HelpViewer/HelpViewer "HelpViewer"
+[DZIP]: https://github.com/HelpViewer/HelpViewer/releases "ZIP"
+[DCONT]: https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer "Kontejner"

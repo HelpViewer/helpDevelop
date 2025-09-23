@@ -20,8 +20,8 @@
 
 ## 📦 Distribution
 
-- 🗜️ ZIP archive
-- 🐳 Docker/Podman container
+- 🗜️ [ZIP archive][DZIP]
+- 🐳 [Docker/Podman container][DCONT]
 
 ## ⚙️ Build
 
@@ -32,3 +32,5 @@
 [Mermaid]: https://mermaid.js.org/ "Mermaid - render graphs from special text definitions"
 [Prism]: https://prismjs.com/ "Prism - code listing highlighting"
 [HVRepo]: https://github.com/HelpViewer/HelpViewer "HelpViewer"
+[DZIP]: https://github.com/HelpViewer/HelpViewer/releases "ZIP"
+[DCONT]: https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer "Container"
