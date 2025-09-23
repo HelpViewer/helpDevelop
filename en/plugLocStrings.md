@@ -21,7 +21,7 @@ The chapter 🌐 [New language for Viewer][ViewerNewLang] further describes:
 
 ## Separate localization dictionary for the plugin
 
-Using the 🧩 [pServiceLocalization][pServiceLocalization] plugin (part of the basic package), you can add your own localizations for each plugin. Just create the appropriate files in the right place.
+Using the 🔌 [pServiceLocalization][pServiceLocalization] plugin (part of the basic package), you can add your own localizations for each plugin. Just create the appropriate files in the right place.
 
 Required files:
 

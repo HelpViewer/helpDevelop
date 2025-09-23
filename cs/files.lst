@@ -40,3 +40,5 @@ resource.md|Zdroj/Balíček
 routingmc.md|Směrování kliknutí myši
 objDoc.md|Dokumentace objektů
 deps.lst.md|Seznam závislostí (deps.lst)
+plugLocStrings.md|Lokalizace pluginů
+pServicePlugin.md|pServicePlugin

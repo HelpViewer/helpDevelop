@@ -40,3 +40,5 @@ resource.md|Resource/Package
 routingmc.md|Mouse click routing
 objDoc.md|Documenting objects
 deps.lst.md|List of dependencies (deps.lst)
+plugLocStrings.md|Plugin localization
+pServicePlugin.md|pServicePlugin

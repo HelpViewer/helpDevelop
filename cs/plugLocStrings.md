@@ -21,7 +21,7 @@ Kapitola 🌐 [Nový jazyk prohlížeče][ViewerNewLang] dále popisuje:
 
 ## Samostatný lokalizační slovník pro plugin
 
-Pomocí komponenty 🧩 [pServiceLocalization][pServiceLocalization] (součást základního balíčku) lze přidat vlastní lokalizace pro každý plugin. Stačí založit příslušné soubory na správném místě.
+Pomocí komponenty 🔌 [pServiceLocalization][pServiceLocalization] (součást základního balíčku) lze přidat vlastní lokalizace pro každý plugin. Stačí založit příslušné soubory na správném místě.
 
 Povinné soubory:
 
