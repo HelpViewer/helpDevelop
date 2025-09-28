@@ -4,6 +4,7 @@
 - 🎨 CSS 3 (pure)
 - ⚡ JavaScript ES2021 (pure)
 - 🛢️ Local storage
+- 🛢️ IndexedDB (only for ✏️ User notes plugin)
 
 ## 🗃️ Repository
 
@@ -21,6 +22,7 @@
 ## 📦 Distribution
 
 - 🗜️ [ZIP archive][DZIP]
+  - 📥 [Custom package][HelpViewer] (ZIP)
 - 🐳 [Docker/Podman container][DCONT]
 
 ## ⚙️ Build
@@ -34,3 +36,4 @@
 [HVRepo]: https://github.com/HelpViewer/HelpViewer "HelpViewer"
 [DZIP]: https://github.com/HelpViewer/HelpViewer/releases "ZIP"
 [DCONT]: https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer "Container"
+[HelpViewer]: https://helpviewer.github.io/ "HelpViewer"

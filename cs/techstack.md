@@ -4,6 +4,7 @@
 - 🎨 CSS 3 (čistý)
 - ⚡ JavaScript ES2021 (čistý)
 - 🛢️ Local storage
+- 🛢️ IndexedDB (pouze pro plugin ✏️ Poznámky)
 
 ## 🗃️ Repozitář
 
@@ -21,6 +22,7 @@
 ## 📦 Distribuce
 
 - 🗜️ [ZIP archiv][DZIP]
+  - 📥 [Vlastní balíček][HelpViewer] (ZIP)
 - 🐳 [Kontejner pro Docker/Podman][DCONT]
 
 ## ⚙️ Sestavení
@@ -34,3 +36,4 @@
 [HVRepo]: https://github.com/HelpViewer/HelpViewer "HelpViewer"
 [DZIP]: https://github.com/HelpViewer/HelpViewer/releases "ZIP"
 [DCONT]: https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer "Kontejner"
+[HelpViewer]: https://helpviewer.github.io/ "HelpViewer"
