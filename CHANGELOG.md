@@ -1,5 +1,12 @@
 # Changelog
 
+## 20250929
+- Technology stack chapter updated - links, forms of deployment
+- New language for viewer - update for function parameter
+- Object explorer - how to define manual indexation entry for event call
+- pServicePlugin described
+- Extension of examples, rearrange in First plugin chapter to have more subchapters defined by purpose
+
 ## 20250921
 - TOC tree rearranged
 - Run sequence description updated
