@@ -36,6 +36,7 @@ UI elements|UI elements||uiobject.md
 📑 Documenting objects|Documenting objects||objDoc.md
 🌐 New language|New language||newLangViewer.md
 HelpViewer Project|HelpViewer Project||helpviewer.md
+ 📍 Milestones|Milestones||milestones.md
  📜 Project policies|Project policies and documents||?d=https://raw.githubusercontent.com/HelpViewer/.github/master/
  🚀 Download latest version|Package for offline use and deployment||=latestApp
  🔗 GitHub|GitHub repository||https://github.com/HelpViewer/HelpViewer
