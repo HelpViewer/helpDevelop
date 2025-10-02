@@ -1,7 +1,7 @@
 # 🐞 Debug mode
 
 - Debug mode is automatically disabled in production.
-- Enable it by changing **DEBUG_MODE** to **true** in **hvdata/appmain.js**.
+- Enable it by changing **DEBUG_MODE** to **true** in **index.html**.
 
 ## Features available in debug mode
 

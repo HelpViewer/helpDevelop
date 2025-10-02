@@ -1,7 +1,7 @@
 # 🐞 Debug režim
 
 - Debug režim je v produkci automaticky vypnutý
-- Zapnete jej změnou **DEBUG_MODE** na **true** v **hvdata/appmain.js**
+- Zapnete jej změnou **DEBUG_MODE** na **true** v **index.html**
 
 ## Funkce dostupné v debug režimu
 
