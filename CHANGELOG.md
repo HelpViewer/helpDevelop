@@ -1,5 +1,9 @@
 # Changelog
 
+## 20251004
+- Milestones
+- DEBUG_MODE directive location updated
+
 ## 20250929
 - Technology stack chapter updated - links, forms of deployment
 - New language for viewer - update for function parameter
