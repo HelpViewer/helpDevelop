@@ -52,7 +52,7 @@ Plugins.catalogize(pMinPlugin);
 
 ```
 
-- Volání **Plugins.catalogize(pMinPlugin);** je povinné, protože provede zavedení pluginu do katalogu načtených pluginů. Následně na základě znalosti jména pluginu je možné si vyžádat jeho instance. Na základě dat v **plugins.lst** toto udělá aplikace sama.
+- Volání **Plugins.catalogize(pMinPlugin);** je povinné, protože provede zavedení pluginu do katalogu načtených pluginů. Následně na základě znalosti jména pluginu je možné si vyžádat jeho instance. Na základě dat v **[plugins][plugins].lst** toto udělá aplikace sama.
 - Volání **super.** by mělo být první u konstruktoru a u init a deinit poslední. Zajišťují aplikaci obecné spoelčné logiky.
 - const T a TI jsou zkratky pro přístup k this a ke třídě. Je to napříč systémem doporučená koncepce psaní.
 - V případě, že máte ve funkci pouze volání super. , můžete funkci odebrat zcela. Zde v ukázce je vše uvedeno pro rychlý obecný přehled.
@@ -72,6 +72,7 @@ Plugins.catalogize(pMinPlugin);
 | 🖥️ [puiButton][puiButton] | 🔘 Tlačítko pro uživatelské rozhraní. Obsluha akce musí být součástí zdroje pluginu. |
 | 🖥️ [puiButtonTab][puiButtonTab] | 🔘🎛️ Tlačítko a karta bočního panelu. |
 | 🖥️ [puiButtonTabTree][puiButtonTabTree] | 🔘🎛️📂 Tlačítko a karta bočního panelu s komponentou strom. |
+| 🖥️ [puiButtonSelect][puiButtonSelect] | 🔘▼ Tlačítko s výběrovým seznamem. |
 
 ### Výpis textu kapitol
 
@@ -92,6 +93,7 @@ Plugins.catalogize(pMinPlugin);
 [puiButton]: puiButton.md "puiButton"
 [puiButtonTab]:puiButtonTab.md "puiButtonTab"
 [puiButtonTabTree]: puiButtonTabTree.md "puiButtonTabTree"
+[puiButtonSelect]: puiButtonSelect.md "puiButtonSelect"
 [plugins]: plugins.lst.md "Seznam pluginů"
 [pServicePlugin]: pServicePlugin.md "pServicePlugin"
 [pPluginManagement]: :_plg:pPluginManagement.md "pPluginManagement"

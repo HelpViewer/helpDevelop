@@ -52,7 +52,7 @@ Plugins.catalogize(pMinPlugin);
 
 ```
 
-- Calling **Plugins.catalogize(pMinPlugin);** is mandatory because it adds the plugin to the catalog of loaded plugins. Subsequently, based on the plugin name, it is possible to request its instance. Based on the data in **plugins.lst**, the application does this itself.
+- Calling **Plugins.catalogize(pMinPlugin);** is mandatory because it adds the plugin to the catalog of loaded plugins. Subsequently, based on the plugin name, it is possible to request its instance. Based on the data in **[plugins][plugins].lst**, the application does this itself.
 - Calling **super.** should be the first in the constructor and the last in init and deinit. They ensure the application of general common logic.
 - const T and TI are abbreviations for accessing this and the class. This is a recommended writing concept across the system.
 - If you only have a super. call in a function, you can remove the function entirely. Here in the example, everything is listed for a quick general overview.
@@ -72,6 +72,7 @@ Plugins.catalogize(pMinPlugin);
 | 🖥️ [puiButton][puiButton] | 🔘 Button for the user interface. The action handler must be part of the plugin source. |
 | 🖥️ [puiButtonTab][puiButtonTab] | 🔘🎛️ Sidebar button and tab. |
 | 🖥️ [puiButtonTabTree][puiButtonTabTree] | 🔘🎛️📂 Sidebar button and tab with tree component. |
+| 🖥️ [puiButtonSelect][puiButtonSelect] | 🔘▼ Button with a drop-down list. |
 
 ### Chapter text rendering
 
@@ -92,6 +93,7 @@ Plugins.catalogize(pMinPlugin);
 [puiButton]: puiButton.md "puiButton"
 [puiButtonTab]:puiButtonTab.md "puiButtonTab"
 [puiButtonTabTree]: puiButtonTabTree.md "puiButtonTabTree"
+[puiButtonSelect]: puiButtonSelect.md "puiButtonSelect"
 [plugins]: plugins.lst.md "List of plugins"
 [pServicePlugin]: pServicePlugin.md "pServicePlugin"
 [pPluginManagement]: :_plg:pPluginManagement.md "pPluginManagement"

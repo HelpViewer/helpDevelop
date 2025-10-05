@@ -18,6 +18,7 @@ Plugin implementation|Plugin implementation||implPlug.md
  🖥️ puiButton|puiButton||puiButton.md
  🖥️ puiButtonTab|puiButtonTab||puiButtonTab.md
  🖥️ puiButtonTabTree|puiButtonTabTree||puiButtonTabTree.md
+ 🖥️ puiButtonSelect|puiButtonSelect||puiButtonSelect.md
  🔌 pConvertSysEventToEvent|pConvertSysEventToEvent||pConvertSysEventToEvent.md
  🖼️ pTRPhasePlugin|pTRPhasePlugin||pTRPhasePlugin.md
  🖼️ pTopicRenderer|pTopicRenderer||pTopicRenderer.md
