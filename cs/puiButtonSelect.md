@@ -59,13 +59,13 @@ Plugins.catalogize(puiButtonSelectNew);
 
 ## Popis funkčnosti
 
+- **this.select** obsahuje odkaz na vytvořený výběrový seznam
+- **e** představuje javascript systémové události
 - **appendComboBoxItems** připojí množinu položek do výběrového pole. Indexy jsou přiřazeny od 0
 - **e.target.selectedIndex** index vybrané položky
 - **e.target.options\[e.target.selectedIndex\].text** text vybrané položky
 - **this.select.options.length = 0** smaže položky výběrového pole
 - **_handleFocus** akce před otevřením seznamu možných voleb
-- **this.select** obsahuje odkaz na vytvořený výběrový seznam
-- **e** představuje javascript systémové události
 - **sendEvent('ButtonSelectIconSet', (x) => {x.payload = '🖥️'; id = '';});** změní ikonu tlačítka na 🖥️
 
 ## Příklady implementací

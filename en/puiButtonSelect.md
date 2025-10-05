@@ -59,13 +59,13 @@ Plugins.catalogize(puiButtonSelectNew);
 
 ## Functionality description
 
+- **this.select** contains a link to the created selection list
+- **e** represents JavaScript system events
 - **appendComboBoxItems** adds a set of items to the selection box. Indexes are assigned from 0
 - **e.target.selectedIndex** index of the selected item
 - **e.target.options\[e.target.selectedIndex\].text** text of the selected item
 - **this.select.options.length = 0** deletes the items in the selection box
 - **_handleFocus** action before opening the list of possible options
-- **this.select** contains a link to the created selection list
-- **e** represents JavaScript system events
 - **sendEvent('ButtonSelectIconSet', (x) => {x.payload = '🖥️'; id = '';});** changes the button icon to 🖥️
 
 ## Implementation examples
