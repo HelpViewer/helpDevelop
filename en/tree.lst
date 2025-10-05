@@ -35,6 +35,7 @@ UI elements|UI elements||uiobject.md
  🎛️ Tab|Tab||uitab.md
  📂 Tree|Tree||uitree.md
 📑 Documenting objects|Documenting objects||objDoc.md
+📥 Custom package|Custom package||custPackage.md
 🌐 New language|New language||newLangViewer.md
 HelpViewer Project|HelpViewer Project||helpviewer.md
  📍 Milestones|Milestones||milestones.md
