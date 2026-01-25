@@ -15,6 +15,9 @@
 | [20250915][20250915] | 🔎 Fulltext indexing in runtime, not only in CI/CD |
 | [20250921][20250921] | 📥 Customization of download package is now possible |
 | [20250929][20250929] | ✏️ User notes can be inserted into chapter texts |
+| [20251004][20251004] | 🌈️ Switching visual styles |
+| [20251119][20251119] | 🐳 The container image is based on scratch (only the minimum is taken from Alpine Linux) |
+| [20260125][20260125] | 📥 Support for exporting text to HTML, MD, LaTeX |
 
 [20250524]: https://github.com/HelpViewer/HelpViewer/commit/b28cf0a59edb38fa9f4f0ba6964dc460c7fb3718
 [20250603]: https://github.com/HelpViewer/HelpViewer/releases/tag/20250603-1
@@ -27,4 +30,7 @@
 [20250915]: https://github.com/HelpViewer/HelpViewer/releases/tag/20250915
 [20250921]: https://github.com/HelpViewer/HelpViewer/releases/tag/20250921
 [20250929]: https://github.com/HelpViewer/HelpViewer/releases/tag/20250929
+[20251004]: https://github.com/HelpViewer/HelpViewer/releases/tag/20251004
+[20251119]: https://github.com/HelpViewer/HelpViewer/releases/tag/20251119
+[20260125]: https://github.com/HelpViewer/HelpViewer/releases/tag/20260125
 [CHANGELOG]: https://github.com/HelpViewer/HelpViewer/blob/master/CHANGELOG.md

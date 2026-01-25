@@ -15,6 +15,9 @@
 | [20250915][20250915] | 🔎 Fulltextové indexování v runtime, ne jen v CI/CD |
 | [20250921][20250921] | 📥 Lze přizpůsobit stažený balíček přímo na webu projektu |
 | [20250929][20250929] | ✏️ Do textů kapitol mohou čtenáři vkládat osobní poznámky |
+| [20251004][20251004] | 🌈️ Přepínání vizuálních stylů |
+| [20251119][20251119] | 🐳 Obraz kontejneru vychází ze scratch (z Alpine Linux se přebírá minimum) |
+| [20260125][20260125] | 📥 Podpora pro export textu do HTML, MD, LaTeX |
 
 [20250524]: https://github.com/HelpViewer/HelpViewer/commit/b28cf0a59edb38fa9f4f0ba6964dc460c7fb3718
 [20250603]: https://github.com/HelpViewer/HelpViewer/releases/tag/20250603-1
@@ -27,4 +30,7 @@
 [20250915]: https://github.com/HelpViewer/HelpViewer/releases/tag/20250915
 [20250921]: https://github.com/HelpViewer/HelpViewer/releases/tag/20250921
 [20250929]: https://github.com/HelpViewer/HelpViewer/releases/tag/20250929
+[20251004]: https://github.com/HelpViewer/HelpViewer/releases/tag/20251004
+[20251119]: https://github.com/HelpViewer/HelpViewer/releases/tag/20251119
+[20260125]: https://github.com/HelpViewer/HelpViewer/releases/tag/20260125
 [CHANGELOG]: https://github.com/HelpViewer/HelpViewer/blob/master/CHANGELOG.md
