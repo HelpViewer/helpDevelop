@@ -6,6 +6,7 @@ Organizace [HelpViewer][HelpViewer] obsahuje 2 základní typy repozitářů:
 
 - Základní repozitáře projektu - prohlížeč, překlady, další servisní repozitáře
 - Repozitáře nápověd (**help\***)
+- Repozitáře platformy
 
 ## Seznam základních repozitářů
 
@@ -18,6 +19,7 @@ Organizace [HelpViewer][HelpViewer] obsahuje 2 základní typy repozitářů:
 | [fulltextSearchDBBuilder][FTSIndexBuilder] | Generátor fulltext indexu. Tento Bash skript je používán nasazovacími skripty nápověd při přípravě fulltext indexů. |
 | [helpTemplate][RhelpTemplate] | Šablona projektu souboru nápovědy. Je určená pro autory nápověd jako základní prázdný projekt. |
 | [prism][RPrism] | PrismJS sestavená pomocí download průvodce projektu. Repozitář je vložený do **HelpViewer** jako submodul. |
+| HTMLTo* | Převodníky z HTML na jiný formát. Repozitáře jsou používány pro export textů kapitol (📥). Například: [HTMLToTeX][HTMLToTeX] (LaTeX), [HTMLToMD][HTMLToMD] (markdown) |
 
 ## Seznam repozitářů nápověd
 
@@ -30,6 +32,16 @@ Repozitáře bývají pojmenovány **help\***. Vzhledem k pojmenování projektu
 | [helpAuthorsGuide][RhelpAuthorsGuide] | (Tato) Nápověda pro autory nápověd. Popisuje vyškeré kroky, které jsou potřebné k vytvoření a vydání nápovědy. |
 | [helpDevelop][RhelpDevelop] | Nápověda pro vývojáře. Popisuje platformu a možnosti jejího rozšíření včetně psaní vlastních zásuvných modulů. |
 | [helpInternalRef][RhelpInternalRef] | Nápověda pro vývojáře. Popisuje objekty systému, a parametry událostí, které se mezi pluginy posílají. |
+
+## Repozitáře platformy 
+
+Repozitáře jsou určeny k založení zcela nové aplikace na bázi architektury, která v rámci projektu vznikla.
+
+| Repozitář | Obsah |
+|---|---|
+| [appstrapTemplate][RappstrapTemplate] | Šablona pro projekt nové aplikace. |
+| [HelpViewer-base][PHelpViewerbase] | Minimální jádro aplikace. |
+| [HelpViewer-loader][RHelpViewerloader] | Zavaděč aplikace, který zajišťuje sekvenci zavádění zdrojů a práci se ZIP archivem s daty aplikace. |
 
 ## Vydávání verzí
 
@@ -54,3 +66,8 @@ Repozitáře bývají pojmenovány **help\***. Vzhledem k pojmenování projektu
 [R.github]: https://github.com/HelpViewer/.github "Repozitář se základními informacemi"
 [RPrism]: https://github.com/HelpViewer/prism
 [RhelpInternalRef]: https://github.com/HelpViewer/helpInternalRef "HelpViewer dokumentace systémových objektů"
+[HTMLToTeX]: https://github.com/HelpViewer/HTMLToTeX "HTML -> TeX"
+[HTMLToMD]: https://github.com/HelpViewer/HTMLToMD "HTML -> md"
+[RappstrapTemplate]: https://github.com/HelpViewer/appstrapTemplate "Předloha pro aplikaci"
+[PHelpViewerbase]: https://github.com/HelpViewer/HelpViewer-base "Minimální jádro"
+[RHelpViewerloader]: https://github.com/HelpViewer/HelpViewer-loader "Zavaděč"
