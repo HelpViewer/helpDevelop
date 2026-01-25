@@ -68,6 +68,16 @@ Plugins.catalogize(puiButtonSelectNew);
 - **_handleFocus** akce před otevřením seznamu možných voleb
 - **sendEvent('ButtonSelectIconSet', (x) => {x.payload = '🖥️'; id = '';});** změní ikonu tlačítka na 🖥️
 
+## Jazykové řetězce
+
+V **zip/lang/(jazyk)/lstr.txt**, například pro pole **downP-selNew** doplňte klíče:
+
+| Klíč | Hodnota | Význam |
+| --- | --- | --- |
+| downP-selNew | zadejte | Popisek bublinové nápovědy |
+| downP-selNew-lab__innerText | zadejte | Popisek titulku pro přístupnost |
+| downP-selNew__aria-label | prázdné | aria-label atribut na div prvku, který zapouzdřuje výběrové pole (důvodem je možná duplicita při čtení asistivní čtečkou) | 
+
 ## Příklady implementací
 
 - 🖥️ [puiButtonSelectSkin][puiButtonSelectSkin] a další potomci třídy 🖥️ [puiButtonSelect][puiButtonSelect]

@@ -68,6 +68,16 @@ Plugins.catalogize(puiButtonSelectNew);
 - **_handleFocus** action before opening the list of possible options
 - **sendEvent('ButtonSelectIconSet', (x) => {x.payload = '🖥️'; id = '';});** changes the button icon to 🖥️
 
+## Language strings
+
+In **zip/lang/(language)/lstr.txt**, for example for the **downP-selNew** field, add the following keys:
+
+| Key | Value | Meaning |
+| --- | --- | --- |
+| downP-selNew | enter | Tooltip label |
+| downP-selNew-lab__innerText | enter | Accessibility label |
+| downP-selNew__aria-label | empty | aria-label attribute on div encapsulates selection field element (the reason may be duplication when reading with an assistive reader) | 
+
 ## Implementation examples
 
 - 🖥️ [puiButtonSelectSkin][puiButtonSelectSkin] and other descendants of the class 🖥️ [puiButtonSelect][puiButtonSelect]
