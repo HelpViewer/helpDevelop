@@ -22,6 +22,7 @@ Implementace pluginů|Implementace pluginů||implPlug.md
  🔌 pConvertSysEventToEvent|pConvertSysEventToEvent||pConvertSysEventToEvent.md
  🖼️ pTRPhasePlugin|pTRPhasePlugin||pTRPhasePlugin.md
  🖼️ pTopicRenderer|pTopicRenderer||pTopicRenderer.md
+ 🖼️ pExport|pExport||pExport.md
  🔌 pServicePlugin|pServicePlugin||pServicePlugin.md
 Definice objektů|Definice objektů||objDef.md
  ⚙️ Konfigurační volba|Konfigurační volba||cfgopt.md

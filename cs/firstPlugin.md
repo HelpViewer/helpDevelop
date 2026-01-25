@@ -79,6 +79,7 @@ Plugins.catalogize(pMinPlugin);
 | Název | Popis |
 |---|---|
 | 🖼️ [pTRPhasePlugin][pTRPhasePlugin] | Plugin přijímá událost ⚡ [ShowChapterResolutions][ShowChapterResolutions] od pluginu 🖼️ [pTopicRenderer][pTopicRenderer] a provede jednotlivý krok procesního zpracování. Jednou z jeho aplikací je například parsování md souboru pro výpis do textu kapitoly. |
+| 🖼️ [pExport][pExport] | Plugin přijímá událost ⚡ [PrepareExport][PrepareExport] od pluginu 🖥️ [puiButtonExport][puiButtonExport] a provede export textu kapitoly do formátu podle implementace pluginu - potomka. |
 
 ## Příklady implementací
 
@@ -88,7 +89,9 @@ Plugins.catalogize(pMinPlugin);
 [IPlugin]: :_plg:IPlugin.md "IPlugin"
 [pConvertSysEventToEvent]: pConvertSysEventToEvent.md "pConvertSysEventToEvent"
 [pTRPhasePlugin]: pTRPhasePlugin.md "pTRPhasePlugin"
+[pExport]: pExport.md "pExport"
 [ShowChapterResolutions]: :_evt:ShowChapterResolutions.md "ShowChapterResolutions"
+[PrepareExport]: :_evt:PrepareExport.md "PrepareExport"
 [pTopicRenderer]: pTopicRenderer.md "pTopicRenderer"
 [puiButton]: puiButton.md "puiButton"
 [puiButtonTab]:puiButtonTab.md "puiButtonTab"
@@ -97,3 +100,4 @@ Plugins.catalogize(pMinPlugin);
 [plugins]: plugins.lst.md "Seznam pluginů"
 [pServicePlugin]: pServicePlugin.md "pServicePlugin"
 [pPluginManagement]: :_plg:pPluginManagement.md "pPluginManagement"
+[puiButtonExport]: :_plg:puiButtonExport.md "puiButtonExport"

@@ -79,6 +79,7 @@ Plugins.catalogize(pMinPlugin);
 | Name | Description |
 |---|---|
 | 🖼️ [pTRPhasePlugin][pTRPhasePlugin] | The plugin receives the ⚡ [ShowChapterResolutions][ShowChapterResolutions] event from the 🖼️ [pTopicRenderer][pTopicRenderer] plugin and performs a single step of process handling. One of its applications is, for example, parsing an md file for listing into chapter text. |
+| 🖼️ [pExport][pExport] | The plugin receives the event ⚡ [PrepareExport][PrepareExport] from the plugin 🖥️ [puiButtonExport][puiButtonExport] and exports the chapter text to the format according to the implementation of the plugin - descendant. |
 
 ## Implementation examples
 
@@ -88,7 +89,9 @@ Plugins.catalogize(pMinPlugin);
 [IPlugin]: :_plg:IPlugin.md "IPlugin"
 [pConvertSysEventToEvent]: pConvertSysEventToEvent.md "pConvertSysEventToEvent"
 [pTRPhasePlugin]: pTRPhasePlugin.md "pTRPhasePlugin"
+[pExport]: pExport.md "pExport"
 [ShowChapterResolutions]: :_evt:ShowChapterResolutions.md "ShowChapterResolutions"
+[PrepareExport]: :_evt:PrepareExport.md "PrepareExport"
 [pTopicRenderer]: pTopicRenderer.md "pTopicRenderer"
 [puiButton]: puiButton.md "puiButton"
 [puiButtonTab]:puiButtonTab.md "puiButtonTab"
@@ -97,3 +100,4 @@ Plugins.catalogize(pMinPlugin);
 [plugins]: plugins.lst.md "List of plugins"
 [pServicePlugin]: pServicePlugin.md "pServicePlugin"
 [pPluginManagement]: :_plg:pPluginManagement.md "pPluginManagement"
+[puiButtonExport]: :_plg:puiButtonExport.md "puiButtonExport"
