@@ -1,5 +1,11 @@
 # Changelog
 
+## 20260125
+- puiButtonSelect, pExport plugin class description
+- Custom package feature and configuration description
+- HelpViewer organization repositories description updated
+- Milestones updated
+
 ## 20251004
 - Milestones
 - DEBUG_MODE directive location updated
