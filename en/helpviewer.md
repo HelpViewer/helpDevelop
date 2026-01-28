@@ -2,7 +2,7 @@
 
 ## Organization
 
-Organization [HelpViewer][HelpViewer] contains 2 basic types of repositories:
+Organization [HelpViewer][HelpViewer] contains 3 basic types of repositories:
 
 - Basic project repositories - Viewer, translations, another service repositories
 - Help files repositories (**help\***)

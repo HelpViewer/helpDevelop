@@ -2,7 +2,7 @@
 
 ## Organizace
 
-Organizace [HelpViewer][HelpViewer] obsahuje 2 základní typy repozitářů:
+Organizace [HelpViewer][HelpViewer] obsahuje 3 základní typy repozitářů:
 
 - Základní repozitáře projektu - prohlížeč, překlady, další servisní repozitáře
 - Repozitáře nápověd (**help\***)
