@@ -18,6 +18,7 @@
 | [20251004][20251004] | 🌈️ Přepínání vizuálních stylů |
 | [20251119][20251119] | 🐳 Obraz kontejneru vychází ze scratch (z Alpine Linux se přebírá minimum) |
 | [20260125][20260125] | 📥 Podpora pro export textu do HTML, MD, LaTeX |
+| [20260131][20260131] | 📥 Podpora pro export textu do ePub |
 
 [20250524]: https://github.com/HelpViewer/HelpViewer/commit/b28cf0a59edb38fa9f4f0ba6964dc460c7fb3718
 [20250603]: https://github.com/HelpViewer/HelpViewer/releases/tag/20250603-1
@@ -33,4 +34,5 @@
 [20251004]: https://github.com/HelpViewer/HelpViewer/releases/tag/20251004
 [20251119]: https://github.com/HelpViewer/HelpViewer/releases/tag/20251119
 [20260125]: https://github.com/HelpViewer/HelpViewer/releases/tag/20260125
+[20260131]: https://github.com/HelpViewer/HelpViewer/releases/tag/20260131
 [CHANGELOG]: https://github.com/HelpViewer/HelpViewer/blob/master/CHANGELOG.md
