@@ -1,5 +1,8 @@
 # Changelog
 
+## 20260131
+- ePub format mentioned, typo fix
+
 ## 20260125
 - puiButtonSelect, pExport plugin class description
 - Custom package feature and configuration description
