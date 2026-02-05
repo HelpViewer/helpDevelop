@@ -1,5 +1,8 @@
 # Changelog
 
+## 20260205
+- Milestones : Static webpages export mentioned, link fix
+
 ## 20260131
 - ePub format mentioned, typo fix
 
