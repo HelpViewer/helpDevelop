@@ -18,7 +18,8 @@
 | [20251004][20251004] | 🌈️ Switching visual styles |
 | [20251119][20251119] | 🐳 The container image is based on scratch (only the minimum is taken from Alpine Linux) |
 | [20260125][20260125] | 📥 Support for exporting text to HTML, MD, LaTeX |
-| [20260125][20260125] | 📥 Support for exporting text to ePub |
+| [20260131][20260131] | 📥 Support for exporting text to ePub |
+| [20260205][20260205] | 📥 Static website export |
 
 [20250524]: https://github.com/HelpViewer/HelpViewer/commit/b28cf0a59edb38fa9f4f0ba6964dc460c7fb3718
 [20250603]: https://github.com/HelpViewer/HelpViewer/releases/tag/20250603-1
@@ -35,4 +36,5 @@
 [20251119]: https://github.com/HelpViewer/HelpViewer/releases/tag/20251119
 [20260125]: https://github.com/HelpViewer/HelpViewer/releases/tag/20260125
 [20260131]: https://github.com/HelpViewer/HelpViewer/releases/tag/20260131
+[20260205]: https://github.com/HelpViewer/HelpViewer/releases/tag/20260205
 [CHANGELOG]: https://github.com/HelpViewer/HelpViewer/blob/master/CHANGELOG.md
