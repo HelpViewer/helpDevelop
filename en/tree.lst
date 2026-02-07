@@ -23,6 +23,7 @@ Plugin implementation|Plugin implementation||implPlug.md
  🖼️ pTRPhasePlugin|pTRPhasePlugin||pTRPhasePlugin.md
  🖼️ pTopicRenderer|pTopicRenderer||pTopicRenderer.md
  🖼️ pExport|pExport||pExport.md
+ 🧩 pExtension|pExtension||pExtension.md
  🔌 pServicePlugin|pServicePlugin||pServicePlugin.md
 Object definitions|Object definitions||objDef.md
  ⚙️ Configuration option|Configuration option||cfgopt.md

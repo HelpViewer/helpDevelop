@@ -64,6 +64,7 @@ Plugins.catalogize(pMinPlugin);
 | 🔌 [IPlugin][IPlugin] | Basic plugin for all plugins in the system. Provides basic functions for a general plugin. It is intended for service plugins or event listeners that do not provide any user interface elements themselves. |
 | 🔌 [pConvertSysEventToEvent][pConvertSysEventToEvent] | The plugin converts a defined JavaScript event into an application event that can be captured by another plugin. |
 | 🔌 [pServicePlugin][pServicePlugin] | Plugin for extended services. It is based on handlers connected to plugin events 🔌 [pPluginManagement][pPluginManagement]. |
+| 🧩 [pExtension][pExtension] | Plugins with the prefix **pExtension**\* extend the existing functionality of the system or external libraries. They do not have a fixed structure. |
 
 ### User interface
 
@@ -101,3 +102,4 @@ Plugins.catalogize(pMinPlugin);
 [pServicePlugin]: pServicePlugin.md "pServicePlugin"
 [pPluginManagement]: :_plg:pPluginManagement.md "pPluginManagement"
 [puiButtonExport]: :_plg:puiButtonExport.md "puiButtonExport"
+[pExtension]: pExtension.md "pExtension"

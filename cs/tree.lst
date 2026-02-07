@@ -23,6 +23,7 @@ Implementace pluginů|Implementace pluginů||implPlug.md
  🖼️ pTRPhasePlugin|pTRPhasePlugin||pTRPhasePlugin.md
  🖼️ pTopicRenderer|pTopicRenderer||pTopicRenderer.md
  🖼️ pExport|pExport||pExport.md
+ 🧩 pExtension|pExtension||pExtension.md
  🔌 pServicePlugin|pServicePlugin||pServicePlugin.md
 Definice objektů|Definice objektů||objDef.md
  ⚙️ Konfigurační volba|Konfigurační volba||cfgopt.md

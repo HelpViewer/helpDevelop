@@ -68,6 +68,43 @@ The ID after the colon (here NEW) will be offered in the drop-down list of the �
 - The export handler takes the conversion result and calls **evt.output.file('name.txt', result);** to write to the ZIP output
 - Finally, the export handler calls **evt.doneHandler();**. This releases the ZIP file to the user's browser for standard download
 
+## Pre-export conversion
+
+In the case of some plugins (naming convention in the **pExtension**\* system - for example: 🧩 [pExtensionMarkedAdmonitions][pExtensionMarkedAdmonitions]), it can be assumed that they perform a transformation into HTML code that general **HTMLTo**\* (**HTMLToMD**, **HTMLToTeX**) converters do not recognize.
+
+### Procedure
+
+1. In the derived class **pExport**\* in **onETPrepareExport**, the variable **corrections** (array) will be defined, which will record future changes in the DOM structure of the chapter text.
+2. Trigger the event ⚡ [PreExportCorrection][PreExportCorrection] with **x.temporaryObjects** linked to **corrections**
+3. Calls to **onET_PreExportCorrection** will be made on plugins and the outputs from **pExtension**\* plugins will be converted according to the type of export format being prepared - the extension plugin will transform its conversion back into a simplified output for the **HTMLTo**\* converter.
+4. **corrections** will contain elements created by the conversion
+5. The conversion from HTML to the desired format will be called
+6. Go through **corrections** in a loop and delete all contained elements - temporary edits will be cleared from the visible input.
+
+### Sample implementation
+
+```javascript
+  //...
+  async onETPrepareExport(evt) {
+    //...
+    promise = promise.then(async() => {
+      //...
+      const corrections = [];
+      sendEvent(EventNames.PreExportCorrection, (x) => {
+        x.exportType = this.aliasName;
+        x.parent = evt.parent;
+        x.temporaryObjects = corrections;
+      });
+
+      const converted = HTMLTONEW(evt.parent, ctx);
+      corrections.forEach(x => x.remove());
+      //...
+    }
+  }
+```
+
+The event ⚡ [PreExportCorrection][PreExportCorrection] has a handler on the side of 🧩 [pExtension][pExtension]\*, which ensures point 3 [Procedure][H30].
+
 ## Implementation examples
 
 - 🖼️ [pExportHTM][pExportHTM] and other descendants of the class 🖼️ [pExport][pExport] whose names begin with **pExport**.
@@ -75,9 +112,13 @@ The ID after the colon (here NEW) will be offered in the drop-down list of the �
 
 [puiButtonExport]: :_plg:puiButtonExport.md "puiButtonExport"
 [pExportHTM]: :_plg:pExportHTM.md "pExportHTM"
+[pExtension]: pExtension.md#h-3-0 "pExtension"
+[pExtensionMarkedAdmonitions]: :_plg:pExtensionMarkedAdmonitions.md "pExtensionMarkedAdmonitions"
 [PrepareExport]: :_evt:PrepareExport.md "PrepareExport"
+[PreExportCorrection]: :_evt:PreExportCorrection.md "PreExportCorrection"
 [pExport]: :_plg:pExport.md "pExport"
 [resource]: resource.md "Resource"
 [pluginslst]: plugins.lst.md "List of plugins (plugins.lst)"
 [HTMLToTeX]: https://github.com/HelpViewer/HTMLToTeX "HTML -> TeX"
 [HTMLToMD]: https://github.com/HelpViewer/HTMLToMD "HTML -> md"
+[H30]: #h-3-0 "Postup"

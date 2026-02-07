@@ -4,7 +4,7 @@
 
 Tento plugin definuje základní rozhraní pro export zobrazeného textu kapitoly.
 
-Odvozený plugin je obvykle zapouzdřením mezi: 
+Odvozený plugin je obvykle zapouzdřením mezi:
 
 - **HelpViewer** (🖥️ [puiButtonExport][puiButtonExport]) a
 - převodníkem z **HTML** na požadovaný formát, který je obvykle řešen externím skriptem. 
@@ -68,6 +68,43 @@ ID za dvojtečkou (zde NEW) se nabídne ve výběrovém seznamu tlačítka 📥 
 - Obsluha exportu převezme výsledek převodu a provolá **evt.output.file('name.txt', result);**, pro zápis do ZIP výstupu
 - Obsluha exportu nakonec provolá **evt.doneHandler();**. Tímto vydá ZIP soubor uživateli do prohlížeče pro standardní stažení
 
+## Předexportní konverze
+
+V případě některých pluginů (konvence pro pojmenování v systému **pExtension**\* - například: 🧩 [pExtensionMarkedAdmonitions][pExtensionMarkedAdmonitions]) lze předpokládat, že provádějí transformaci do HTML kódu, kterou obecné **HTMLTo**\* (**HTMLToMD**, **HTMLToTeX**) převodníky nerozpoznají.
+
+### Postup
+
+1. V odvozené třídě **pExport**\* v **onETPrepareExport** bude definována proměnná **corrections** (pole), která bude evidovat budoucí změny v DOM struktuře textu kapitoly.
+2. Spustíte událost ⚡ [PreExportCorrection][PreExportCorrection] s tím, že **x.temporaryObjects** budou propojeny na **corrections**
+3. Proběhnou provolání **onET_PreExportCorrection** na pluginech a konverze výstupů z **pExtension**\* pluginů podle typu exportního formátu, který se připravuje - extension plugin znovu transformuje svou konverzi do zjednodušeného výstupu pro **HTMLTo**\* převodník.
+4. V **corrections** budou obsaženy prvky, které konverzí vznikly
+5. Provolá se samotná konverze z HTML na požadovaný formát
+6. **corrections** projdete v cyklu a smažete všechny obsažené prvky - dočasné úpravy se vyčistí z viditelného vstupu.
+
+### Ukázková implementace
+
+```javascript
+  //...
+  async onETPrepareExport(evt) {
+    //...
+    promise = promise.then(async() => {
+      //...
+      const corrections = [];
+      sendEvent(EventNames.PreExportCorrection, (x) => {
+        x.exportType = this.aliasName;
+        x.parent = evt.parent;
+        x.temporaryObjects = corrections;
+      });
+
+      const converted = HTMLTONEW(evt.parent, ctx);
+      corrections.forEach(x => x.remove());
+      //...
+    }
+  }
+```
+
+Událost ⚡ [PreExportCorrection][PreExportCorrection] má obsluhu na straně 🧩 [pExtension][pExtension]\*, která zajistí bod 3 [Postupu][H30].
+
 ## Příklady implementací
 
 - 🖼️ [pExportHTM][pExportHTM] a další potomci třídy 🖼️ [pExport][pExport], kteří svým jménem začínají na **pExport**.
@@ -75,9 +112,13 @@ ID za dvojtečkou (zde NEW) se nabídne ve výběrovém seznamu tlačítka 📥 
 
 [puiButtonExport]: :_plg:puiButtonExport.md "puiButtonExport"
 [pExportHTM]: :_plg:pExportHTM.md "pExportHTM"
+[pExtension]: pExtension.md#h-3-0 "pExtension"
+[pExtensionMarkedAdmonitions]: :_plg:pExtensionMarkedAdmonitions.md "pExtensionMarkedAdmonitions"
 [PrepareExport]: :_evt:PrepareExport.md "PrepareExport"
+[PreExportCorrection]: :_evt:PreExportCorrection.md "PreExportCorrection"
 [pExport]: :_plg:pExport.md "pExport"
 [resource]: resource.md "Zdroj"
 [pluginslst]: plugins.lst.md "Seznam pluginů (plugins.lst)"
 [HTMLToTeX]: https://github.com/HelpViewer/HTMLToTeX "HTML -> TeX"
 [HTMLToMD]: https://github.com/HelpViewer/HTMLToMD "HTML -> md"
+[H30]: #h-3-0 "Postup"

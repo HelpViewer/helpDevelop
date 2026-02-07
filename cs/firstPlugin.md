@@ -64,6 +64,7 @@ Plugins.catalogize(pMinPlugin);
 | 🔌 [IPlugin][IPlugin] | Základní plugin pro všechny pluginy v systému. Poskytuje základní funkce pro obecný plugin. Je určen pro pluginy služeb nebo posluchačů událostí, které samy nebudou zajišťovat žádný prvek uživatelského rozhraní. |
 | 🔌 [pConvertSysEventToEvent][pConvertSysEventToEvent] | Plugin převádí definovanou javascript událost na událost aplikace, která může být zachycena jiným pluginem. |
 | 🔌 [pServicePlugin][pServicePlugin] | Plugin pro rozšiřující služby. Základem jsou obsluhy napojené na události pluginu 🔌 [pPluginManagement][pPluginManagement]. |
+| 🧩 [pExtension][pExtension] | Pluginy s prefixem **pExtension**\* rozšiřují stávající funkcionalitu systému nebo externích knihoven. Nemají pevně danou strukturu. |
 
 ### Uživatelské rozhraní
 
@@ -101,3 +102,4 @@ Plugins.catalogize(pMinPlugin);
 [pServicePlugin]: pServicePlugin.md "pServicePlugin"
 [pPluginManagement]: :_plg:pPluginManagement.md "pPluginManagement"
 [puiButtonExport]: :_plg:puiButtonExport.md "puiButtonExport"
+[pExtension]: pExtension.md "pExtension"
