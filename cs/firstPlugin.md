@@ -80,7 +80,7 @@ Plugins.catalogize(pMinPlugin);
 | Název | Popis |
 |---|---|
 | 🖼️ [pTRPhasePlugin][pTRPhasePlugin] | Plugin přijímá událost ⚡ [ShowChapterResolutions][ShowChapterResolutions] od pluginu 🖼️ [pTopicRenderer][pTopicRenderer] a provede jednotlivý krok procesního zpracování. Jednou z jeho aplikací je například parsování md souboru pro výpis do textu kapitoly. |
-| 🖼️ [pExport][pExport] | Plugin přijímá událost ⚡ [PrepareExport][PrepareExport] od pluginu 🖥️ [puiButtonExport][puiButtonExport] a provede export textu kapitoly do formátu podle implementace pluginu - potomka. |
+| 🖼️ [pExport][pExport] | Plugin přijímá událost ⚡ [PrepareExport][PrepareExport] od pluginu 🖥️ [puiButtonExport][puiButtonExport] a provede export textu kapitoly do formátu podle implementace pluginu - potomka. Také definuje událost ⚡ [PreExportCorrection][PreExportCorrection], kterou využívají hlavně potomci 🧩 [pExtension][pExtension] při konverzi svých výstupů před exportem. |
 
 ## Příklady implementací
 
@@ -103,3 +103,4 @@ Plugins.catalogize(pMinPlugin);
 [pPluginManagement]: :_plg:pPluginManagement.md "pPluginManagement"
 [puiButtonExport]: :_plg:puiButtonExport.md "puiButtonExport"
 [pExtension]: pExtension.md "pExtension"
+[PreExportCorrection]: :_evt:PreExportCorrection.md "PreExportCorrection"

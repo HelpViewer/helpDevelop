@@ -80,7 +80,7 @@ Plugins.catalogize(pMinPlugin);
 | Name | Description |
 |---|---|
 | 🖼️ [pTRPhasePlugin][pTRPhasePlugin] | The plugin receives the ⚡ [ShowChapterResolutions][ShowChapterResolutions] event from the 🖼️ [pTopicRenderer][pTopicRenderer] plugin and performs a single step of process handling. One of its applications is, for example, parsing an md file for listing into chapter text. |
-| 🖼️ [pExport][pExport] | The plugin receives the event ⚡ [PrepareExport][PrepareExport] from the plugin 🖥️ [puiButtonExport][puiButtonExport] and exports the chapter text to the format according to the implementation of the plugin - descendant. |
+| 🖼️ [pExport][pExport] | The plugin receives the event ⚡ [PrepareExport][PrepareExport] from the plugin 🖥️ [puiButtonExport][puiButtonExport] and exports the chapter text to the format according to the implementation of the plugin - descendant. It also defines the event ⚡ [PreExportCorrection][PreExportCorrection], which is mainly used by descendants 🧩 [pExtension][pExtension] when converting their outputs before export. |
 
 ## Implementation examples
 
@@ -103,3 +103,4 @@ Plugins.catalogize(pMinPlugin);
 [pPluginManagement]: :_plg:pPluginManagement.md "pPluginManagement"
 [puiButtonExport]: :_plg:puiButtonExport.md "puiButtonExport"
 [pExtension]: pExtension.md "pExtension"
+[PreExportCorrection]: :_evt:PreExportCorrection.md "PreExportCorrection"
