@@ -17,7 +17,7 @@ Například:
 
 ## Implementace
 
-1. Nový plugin vždy bude mít 🧩 [pExtension][pExtension] jako svou bázovou třídu.
+1. Nový plugin vždy bude mít 🧩 [pExtension ("něco")][pExtension] jako svou bázovou třídu ne **pExtension** přímo.
 2. Implementace je velmi různorodá podle prvku, který bude rozšiřovat. Postupujte podle kapitoly 🧩 [první plugin][firstPlugin]
 3. Nový plugin musí být zaveden do 📄 [seznamu pluginů][pluginslst] například takto:
 

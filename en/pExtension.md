@@ -17,7 +17,7 @@ For example:
 
 ## Implementation
 
-1. A new plugin will always have 🧩 [pExtension][pExtension] as its base class.
+1. A new plugin will always have 🧩 [pExtension ("something")][pExtension] as its base classn not **pExtension** directly.
 2. The implementation varies greatly depending on the element it will extend. Follow the steps in the chapter 🧩 [first plugin][firstPlugin]
 3. The new plugin must be added to 📄 [plugin list][pluginslst] as follows:
 
