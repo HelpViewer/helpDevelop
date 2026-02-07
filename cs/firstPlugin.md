@@ -53,7 +53,7 @@ Plugins.catalogize(pMinPlugin);
 ```
 
 - Volání **Plugins.catalogize(pMinPlugin);** je povinné, protože provede zavedení pluginu do katalogu načtených pluginů. Následně na základě znalosti jména pluginu je možné si vyžádat jeho instance. Na základě dat v **[plugins][plugins].lst** toto udělá aplikace sama.
-- Volání **super.** by mělo být první u konstruktoru a u init a deinit poslední. Zajišťují aplikaci obecné spoelčné logiky.
+- Volání **super.** by mělo být první u konstruktoru a u init a deinit poslední. Zajišťují aplikaci obecné společné logiky.
 - const T a TI jsou zkratky pro přístup k this a ke třídě. Je to napříč systémem doporučená koncepce psaní.
 - V případě, že máte ve funkci pouze volání super. , můžete funkci odebrat zcela. Zde v ukázce je vše uvedeno pro rychlý obecný přehled.
 
