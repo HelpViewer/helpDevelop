@@ -1,5 +1,9 @@
 # Changelog
 
+## 20260209
+- pExtension concept mentioned and its responsibilities (connected to admonitions and marked.md extension support; event PreExportCorrection introduced)
+- RTF 1.5 / Word 97 export format mentioned
+
 ## 20260205
 - Milestones : Static webpages export mentioned, link fix
 
