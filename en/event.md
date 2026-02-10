@@ -79,7 +79,8 @@ In the handler code, you can then trigger events as follows:
 ```
 
 In the **appmainBaseLogic.js** file, you will find examples of functions that encapsulate similar calls.  
-> [!WARNING] It is recommended to create a similar set of functions for your plugin in a separate file (which you will add to the [list of scripts][jsList]). Calls to the **sendEvent** method are not indexed for the [object explorer][oexplorer], but these functions will be indexed.
+> [!WARNING]
+> It is recommended to create a similar set of functions for your plugin in a separate file (which you will add to the [list of scripts](js.lst.md "List of scripts")). Calls to the **sendEvent** method are not indexed for the [object explorer](oexplorer.md "Object explorer"), but these functions will be indexed.
 
 ## Records 🛰️
 
@@ -91,4 +92,3 @@ A record in the 🛰️ [object explorer][oexplorer] means that:
 [IEvent]: :_evt:IEvent.md "IEvent"
 [oexplorer]: oexplorer.md "Object explorer"
 [IPlugin]: :_plg:IPlugin.md "IPlugin"
-[jsList]: js.lst.md "List of scripts"

@@ -4,9 +4,11 @@ HelpViewer includes the **puiButtonObjectExplorer** plugin. This plugin is used 
 
 ## Activation
 
-> [!WARNING] The ObjectExplorer plug-in is only loaded if the application is running with **DEBUG_MODE = true** in **index.html**. Otherwise, no functionality or output is available, and the application returns a "not found" response for the chapters served by the module.
+> [!WARNING]
+> The ObjectExplorer plug-in is only loaded if the application is running with **DEBUG_MODE = true** in **index.html**. Otherwise, no functionality or output is available, and the application returns a "not found" response for the chapters served by the module.
 
-> [!WARNING] If the plugin has not yet been active during the session, some of the functionality from the list of functions will not yet be available when using links.
+> [!WARNING]
+> If the plugin has not yet been active during the session, some of the functionality from the list of functions will not yet be available when using links.
 
 If the plugin is active, you will see this button on the sidebar:
 
