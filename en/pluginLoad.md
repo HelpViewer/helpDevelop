@@ -31,9 +31,8 @@ const pluginId = '-load';
 await deactivatePlugin(pluginName, pluginId);
 ```
 
-⚠️ This operation allows you to remove any plugin from the system.  
+> [!CAUTION] This operation allows you to remove any plugin from the system.  
 If you remove a key system plugin, it is possible that the application within the given session:
-
 - will stop working partially or completely (it will not respond to important events from the system or JavaScript)
 - will restart more often
 - will excessively redraw its entire user interface

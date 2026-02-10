@@ -16,8 +16,8 @@ Filtrování událostí je dvoustupňové - podle eventIdStrict a jména obsluž
 - Funkce **onET(jméno události)** přijímá všechny události s eventName = (jméno události) a id = plugin.aliasName
 - **Plugin s plugin.aliasName = ''** přijímá všechny události do funkce **onET(jméno události)** nebo **onET_(jméno události)**
 
-⚠️ V pluginu je doporučeno mít jen jednu obsluhu z těchto:
-
+> [!WARNING] V pluginu je doporučeno mít jen jednu obsluhu z těchto:  
+ 
 - onET(jméno události)
 - onET_(jméno události)
 

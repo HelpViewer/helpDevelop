@@ -35,7 +35,7 @@ Soubor **plugins-config/puiButtonCustPackage_.cfg** obsahuje standardní formát
 
 ### Pravidla formátu
 
-- ⚠️ Tento formát je velmi přísný, prosím, dodržujte pravidla přesně.
+- > [!WARNING] Tento formát je velmi přísný, prosím, dodržujte pravidla přesně.
 - Seznamy v tomto souboru nekončí středníky.
 - Jednotlivé položky seznamů v klíčích jsou odděleny středníky.
 - Celé adresáře končí lomítkem **/**.

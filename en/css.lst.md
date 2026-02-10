@@ -1,6 +1,6 @@
 # 📄 List of styles (css.lst)
 
-- ⚠️ This format is very strict, please follow the rules exactly.
+- > [!WARNING] This format is very strict, please follow the rules exactly.
 - The file defines the list and order of CSS styles that the application will apply.
 - One line = one item
 - Line breaks in the middle of a definition are not allowed

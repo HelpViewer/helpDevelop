@@ -16,8 +16,8 @@ Event filtering is two-stage - according to eventIdStrict and the name of the ha
 - The **onET(event name)** function accepts all events with eventName = (event name) and id = plugin.aliasName
 - **A plugin with plugin.aliasName = ''** accepts all events into the **onET(event name)** or **onET_(event name)** function
 
-⚠️ It is recommended to have only one of the following handlers in the plugin:
-
+> [!WARNING] It is recommended to have only one of the following handlers in the plugin:  
+ 
 - onET(event name)
 - onET_(event name)
 

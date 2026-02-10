@@ -1,6 +1,6 @@
 # 📄 Seznam stylů (css.lst)
 
-- ⚠️ Tento formát je velmi přísný, prosím, dodržujte pravidla přesně.
+- > [!WARNING] Tento formát je velmi přísný, prosím, dodržujte pravidla přesně.
 - Soubor definuje seznam a pořadí CSS stylů, které aplikace zavede.
 - Jeden řádek = jedna položka
 - Zalomení řádku uprostřed definice není povoleno

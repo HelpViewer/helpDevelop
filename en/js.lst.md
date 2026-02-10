@@ -1,6 +1,6 @@
 # 📄 List of scripts (js.lst)
 
-- ⚠️ This format is very strict, please follow the rules exactly.
+- > [!WARNING] This format is very strict, please follow the rules exactly.
 - The file defines the list and order of JavaScript files with basic (non-plugin-controlled) code that the application will load.
 - One line = one item
 - Line breaks in the middle of a definition are not allowed

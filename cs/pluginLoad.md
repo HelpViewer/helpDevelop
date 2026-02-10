@@ -31,9 +31,8 @@ const pluginId = '-load';
 await deactivatePlugin(pluginName, pluginId);
 ```
 
-⚠️ Tato operace dovolí ze systému odebrat jakýkoli plugin.  
+> [!CAUTION] Tato operace dovolí ze systému odebrat jakýkoli plugin.  
 Pokud odeberete klíčový plugin systému, je možné, že aplikace v rámci dané relace:
-
 - přestane částečně či zcela fungovat (nebude reagovat na důležitou událost ze systému nebo javascriptu)
 - se bude častěji restartovat
 - bude nadměrně překreslovat celé své uživatelské rozhraní

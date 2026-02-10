@@ -35,7 +35,7 @@ The file **plugins-config/puiButtonCustPackage_.cfg** contains the standard [con
 
 ### Format rules
 
-- ⚠️ This format is very strict, so please follow the rules exactly.
+- > [!WARNING] This format is very strict, so please follow the rules exactly.
 - Lists in this file do not end with semicolons.
 - Individual items in lists in keys are separated by semicolons.
 - Entire directories end with a slash **/**.

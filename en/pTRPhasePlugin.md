@@ -32,7 +32,7 @@ onETShowChapterResolutions is responsible for performing the process step. The p
 | preventDefault | Allows you to call preventDefault on a JavaScript system event. The call is irreversible according to the standard. |
 | stopAllPhases | Setting this to **true** will interrupt further processing of the process. Combine with **stop = true**. |
 
-⚠️ Asynchronicity is used within the process. Always call it as follows:  
+> [!WARNING] Asynchronicity is used within the process. Always call it as follows:  
 r.result = r.result.then(() => ...);  
 so that the individual steps follow each other.  
 You can also attach multiple events to the same result object, but it is recommended to sequence the steps one after the other.

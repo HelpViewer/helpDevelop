@@ -11,7 +11,7 @@ Pokud existuje, načte se a předá se instanci pluginu. Pokud neexistuje, hodno
 
 ## Pravidla formátu
 
-- ⚠️ Tento formát je velmi přísný, prosím, dodržujte pravidla přesně.
+- > [!WARNING] Tento formát je velmi přísný, prosím, dodržujte pravidla přesně.
 - Jeden řádek = jedna položka
 - Zalomení řádku uprostřed definice není povoleno a to ani u hodnot
 - V případě shody názvů klíče se propisuje vždy poslední definovaná hodnota

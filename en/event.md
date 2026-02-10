@@ -79,7 +79,7 @@ In the handler code, you can then trigger events as follows:
 ```
 
 In the **appmainBaseLogic.js** file, you will find examples of functions that encapsulate similar calls.  
-⚠️ It is recommended to create a similar set of functions for your plugin in a separate file (which you will add to the [list of scripts][jsList]). Calls to the **sendEvent** method are not indexed for the [object explorer][oexplorer], but these functions will be indexed.
+> [!WARNING] It is recommended to create a similar set of functions for your plugin in a separate file (which you will add to the [list of scripts][jsList]). Calls to the **sendEvent** method are not indexed for the [object explorer][oexplorer], but these functions will be indexed.
 
 ## Records 🛰️
 

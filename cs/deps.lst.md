@@ -1,6 +1,6 @@
 # 📄 Seznam externích závislostí (deps.lst)
 
-- ⚠️ Tento formát je velmi přísný, prosím, dodržujte pravidla přesně.
+- > [!WARNING] Tento formát je velmi přísný, prosím, dodržujte pravidla přesně.
 - Soubor definuje seznam externích souborů nebo balíčků, které CI skript připojí k balíčku vydání.
 - Jeden řádek = jedna položka
 - Zalomení řádku uprostřed definice není povoleno

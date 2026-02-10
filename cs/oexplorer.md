@@ -4,9 +4,9 @@ HelpViewer obsahuje plugin **puiButtonObjectExplorer**. Tento plugin slouží k 
 
 ## Aktivace
 
-⚠️ ObjectExplorer zásuvný modul je načten pouze pokud aplikace běží s **DEBUG_MODE = true** v **index.html**. V opačném případě není k dispozici žádná funkcionalita ani výstup a aplikace vrací odpověď nenalezeno pro kapitoly, které modul obsluhuje.
+> [!WARNING] ObjectExplorer zásuvný modul je načten pouze pokud aplikace běží s **DEBUG_MODE = true** v **index.html**. V opačném případě není k dispozici žádná funkcionalita ani výstup a aplikace vrací odpověď nenalezeno pro kapitoly, které modul obsluhuje.
 
-⚠️ Pokud plugin nebyl doposud v rámci relace aktivní, část funkcionality ze seznamu funkcí při použití odkazů nebude ještě k dispozici.
+> [!WARNING] Pokud plugin nebyl doposud v rámci relace aktivní, část funkcionality ze seznamu funkcí při použití odkazů nebude ještě k dispozici.
 
 Pokud je plugin aktivní, zobrazí se Vám na bočním panelu toto tlačítko:
 
@@ -41,7 +41,7 @@ Dále podporuje:
 ## Omezení
 
 1. Plugin je dostupný pouze v **DEBUG** režimu z důvodu ochrany produkčních prostředí.
-2. ⚠️ Pro úplný seznam objektů je nutné, aby byla daná funkcionalita v rámci relace alespoň jednou provedena.
+2. > [!WARNING] Pro úplný seznam objektů je nutné, aby byla daná funkcionalita v rámci relace alespoň jednou provedena.
 3. Indexovány jsou pouze pojmenované funkce a objekty, které plugin vystavuje přes **this**.
 
 ### Ruční indexace volání události

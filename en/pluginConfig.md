@@ -11,7 +11,7 @@ If it exists, it is loaded and passed to the plugin instance. If it does not exi
 
 ## Format rules
 
-- ⚠️ This format is very strict, please follow the rules exactly.
+- > [!WARNING] This format is very strict, please follow the rules exactly.
 - One line = one item
 - Line breaks in the middle of a definition are not allowed, even for values
 - In case of duplicate key names, the last defined value is always copied
