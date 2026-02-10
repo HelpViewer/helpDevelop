@@ -32,7 +32,8 @@ onETShowChapterResolutions je odpovědná za prováděný procesní krok. Parame
 | preventDefault | Umožňuje provolat preventDefault na javascript systémové události. Volání je podle standardu nevratné. |
 | stopAllPhases | Nastavením na **true** přerušíte další zpracování procesu. Kombinujte se **stop = true**. |
 
-> [!WARNING] V rámci procesu se užívá asynchronicita. Její provolání provádějte vždy takto:  
+> [!WARNING]
+> V rámci procesu se užívá asynchronicita. Její provolání provádějte vždy takto:  
 r.result = r.result.then(() => ...);  
 aby jednotlivé kroky na sebe navazovaly.  
 Můžete také připojit více událostí ke stejnému result objektu, ale je doporučeno řazení kroků jeden za druhým.
