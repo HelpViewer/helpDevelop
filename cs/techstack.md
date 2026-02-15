@@ -18,6 +18,7 @@
 | [Marked][Marked] | MIT | 🧩 plugin, odebratelné |
 | [Mermaid][Mermaid] | MIT | 🧩 plugin, odebratelné |
 | [Prism][Prism] | MIT | 🧩 plugin, odebratelné |
+| [DOMPurify][DOMPurify] | Apache License Version 2.0 | 🧩 plugin, odebratelné |
 
 ## 📦 Distribuce
 
@@ -37,3 +38,4 @@
 [DZIP]: https://github.com/HelpViewer/HelpViewer/releases "ZIP"
 [DCONT]: https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer "Kontejner"
 [HelpViewer]: https://helpviewer.github.io/ "HelpViewer"
+[DOMPurify]: https://github.com/cure53/DOMPurify "DOMPurify - ochrana výstupu proti XSS (Apache License Version 2.0)"
