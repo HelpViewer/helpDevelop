@@ -20,6 +20,8 @@ Organizace [HelpViewer][HelpViewer] obsahuje 3 základní typy repozitářů:
 | [helpTemplate][RhelpTemplate] | Šablona projektu souboru nápovědy. Je určená pro autory nápověd jako základní prázdný projekt. |
 | [prism][RPrism] | PrismJS sestavená pomocí download průvodce projektu. Repozitář je vložený do **HelpViewer** jako submodul. |
 | HTMLTo* | Převodníky z HTML na jiný formát. Repozitáře jsou používány pro export textů kapitol (📥). Například: [HTMLToTeX][HTMLToTeX] (LaTeX), [HTMLToMD][HTMLToMD] (markdown) |
+| [PluginChromeHelpViewer][RPluginChromeHelpViewer] | Plugin pro prohlížeče s jádrem Chromium. Poskytuje funkcionalitu kontextové nápovědy (obdoba akce "Co je zde?") |
+| [s][RS] | Statická verze stránek **helpviewer.github.io**. Spravováno ručním nahráním automatického exportu. |
 
 ## Seznam repozitářů nápověd
 
@@ -42,6 +44,7 @@ Repozitáře jsou určeny k založení zcela nové aplikace na bázi architektur
 | [appstrapTemplate][RappstrapTemplate] | Šablona pro projekt nové aplikace. |
 | [HelpViewer-base][PHelpViewerbase] | Minimální jádro aplikace. |
 | [HelpViewer-loader][RHelpViewerloader] | Zavaděč aplikace, který zajišťuje sekvenci zavádění zdrojů a práci se ZIP archivem s daty aplikace. |
+| [MiniHTTPServer][RMiniHTTPServer] | Základní testovací HTTP server, který vystavuje statické soubory a podporuje základní konfiguraci. |
 
 ## Vydávání verzí
 
@@ -71,3 +74,6 @@ Repozitáře jsou určeny k založení zcela nové aplikace na bázi architektur
 [RappstrapTemplate]: https://github.com/HelpViewer/appstrapTemplate "Předloha pro aplikaci"
 [PHelpViewerbase]: https://github.com/HelpViewer/HelpViewer-base "Minimální jádro"
 [RHelpViewerloader]: https://github.com/HelpViewer/HelpViewer-loader "Zavaděč"
+[RPluginChromeHelpViewer]: https://github.com/HelpViewer/PluginChromeHelpViewer "PluginChromeHelpViewer"
+[RMiniHTTPServer]: https://github.com/HelpViewer/MiniHTTPServer "MiniHTTPServer"
+[RS]: https://github.com/HelpViewer/s "s"

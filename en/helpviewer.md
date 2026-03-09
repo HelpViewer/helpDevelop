@@ -20,6 +20,8 @@ Organization [HelpViewer][HelpViewer] contains 3 basic types of repositories:
 | [helpTemplate][RhelpTemplate] | Template for help file project. It is intended for help authors as a basic blank project. |
 | [prism][RPrism] | PrismJS library mixed-customized release. Repository is inserted to **HelpViewer** as a Git submodule. |
 | HTMLTo* | Converters from HTML to other formats. Repositories are used to export chapter texts (📥). For example: [HTMLToTeX][HTMLToTeX] (LaTeX), [HTMLToMD][HTMLToMD] (markdown) |
+| [PluginChromeHelpViewer][RPluginChromeHelpViewer] | Plugin for browsers with Chromium core. Provides context help functionality (similar to "What's here?" action). |
+| [s][RS] | Static version of **helpviewer.github.io**. Managed by manual upload of an automated export. |
 
 ## Help files repositories
 
@@ -42,6 +44,7 @@ Repositories are intended for creating a completely new application based on the
 | [appstrapTemplate][RappstrapTemplate] | Template for a new application project. |
 | [HelpViewer-base][PHelpViewerbase] | Minimum application core. |
 | [HelpViewer-loader][RHelpViewerloader] | Application loader that ensures the sequence of resource loading and works with the ZIP archive containing application data. |
+| [MiniHTTPServer][RMiniHTTPServer] | A basic test HTTP server that serves static files and supports basic configuration. |
 
 ## Version publishing
 
@@ -71,3 +74,6 @@ Repositories are intended for creating a completely new application based on the
 [RappstrapTemplate]: https://github.com/HelpViewer/appstrapTemplate "Application template"
 [PHelpViewerbase]: https://github.com/HelpViewer/HelpViewer-base "Minimal core"
 [RHelpViewerloader]: https://github.com/HelpViewer/HelpViewer-loader "Loader"
+[RPluginChromeHelpViewer]: https://github.com/HelpViewer/PluginChromeHelpViewer "PluginChromeHelpViewer"
+[RMiniHTTPServer]: https://github.com/HelpViewer/MiniHTTPServer "MiniHTTPServer"
+[RS]: https://github.com/HelpViewer/s "s"
