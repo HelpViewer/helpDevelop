@@ -16,13 +16,13 @@
 | [20250921][20250921] | 📥 Customization of download package is now possible |
 | [20250929][20250929] | ✏️ User notes can be inserted into chapter texts |
 | [20251004][20251004] | 🌈️ Switching visual styles |
-| [20251119][20251119] | 🐳 The container image is based on scratch (only the minimum is taken from Alpine Linux) |
+| [20251119][20251119] | 🐳 The container image is based on scratch (only the minimum is taken from Alpine Linux). Security against Unicode steganography improved |
 | [20260125][20260125] | 📥 Support for exporting text to HTML, MD, LaTeX |
 | [20260131][20260131] | 📥 Support for exporting text to ePub |
 | [20260205][20260205] | 📥 Static website export |
 | [20260209][20260209] | 📢 Admonitions (Highlighted information blocks), 📥 Support for exporting text to RTF 1.5 / Word 97 |
 | [20260216-1][20260216-1] | 🛡️📦 DOMPurify (improved security against XSS attacks) library integrated as optional 3rd party component |
-| [20260310][20260310] | ❔ Plugin for Chromium-based browsers adding the action What's here? |
+| [20260310][20260310] | ❔ Plugin for Chromium-based browsers adding the action What's here? Security against Unicode steganography improved |
 
 [20250524]: https://github.com/HelpViewer/HelpViewer/commit/b28cf0a59edb38fa9f4f0ba6964dc460c7fb3718
 [20250603]: https://github.com/HelpViewer/HelpViewer/releases/tag/20250603-1

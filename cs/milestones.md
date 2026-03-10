@@ -16,13 +16,13 @@
 | [20250921][20250921] | 📥 Lze přizpůsobit stažený balíček přímo na webu projektu |
 | [20250929][20250929] | ✏️ Do textů kapitol mohou čtenáři vkládat osobní poznámky |
 | [20251004][20251004] | 🌈️ Přepínání vizuálních stylů |
-| [20251119][20251119] | 🐳 Obraz kontejneru vychází ze scratch (z Alpine Linux se přebírá minimum) |
+| [20251119][20251119] | 🐳 Obraz kontejneru vychází ze scratch (z Alpine Linux se přebírá minimum). Zabezpečení proti Unicode steganografii vylepšeno |
 | [20260125][20260125] | 📥 Podpora pro export textu do HTML, MD, LaTeX |
 | [20260131][20260131] | 📥 Podpora pro export textu do ePub |
 | [20260205][20260205] | 📥 Podpora pro export textu do statického webu |
 | [20260209][20260209] | 📢 Vyznačené informační bloky, 📥 Podpora pro export textu do RTF 1.5 / Word 97 |
 | [20260216-1][20260216-1] | 🛡️📦 Knihovna DOMPurify (vylepšená ochrana proti XSS útokům) integrována jako volitelná komponenta třetí strany |
-| [20260310][20260310] | ❔ Plugin pro prohlížece s jádrem Chromium doplňující akci Co je zde? |
+| [20260310][20260310] | ❔ Plugin pro prohlížece s jádrem Chromium doplňující akci Co je zde? Zabezpečení proti Unicode steganografii vylepšeno |
 
 [20250524]: https://github.com/HelpViewer/HelpViewer/commit/b28cf0a59edb38fa9f4f0ba6964dc460c7fb3718
 [20250603]: https://github.com/HelpViewer/HelpViewer/releases/tag/20250603-1
