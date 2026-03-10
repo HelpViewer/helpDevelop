@@ -22,6 +22,7 @@
 | [20260205][20260205] | 📥 Static website export |
 | [20260209][20260209] | 📢 Admonitions (Highlighted information blocks), 📥 Support for exporting text to RTF 1.5 / Word 97 |
 | [20260216-1][20260216-1] | 🛡️📦 DOMPurify (improved security against XSS attacks) library integrated as optional 3rd party component |
+| [20260310][20260310] | ❔ Plugin for Chromium-based browsers adding the action What's here? |
 
 [20250524]: https://github.com/HelpViewer/HelpViewer/commit/b28cf0a59edb38fa9f4f0ba6964dc460c7fb3718
 [20250603]: https://github.com/HelpViewer/HelpViewer/releases/tag/20250603-1
@@ -41,4 +42,5 @@
 [20260205]: https://github.com/HelpViewer/HelpViewer/releases/tag/20260205
 [20260209]: https://github.com/HelpViewer/HelpViewer/releases/tag/20260209
 [20260216-1]: https://github.com/HelpViewer/HelpViewer/releases/tag/20260216-1
+[20260310]: https://github.com/HelpViewer/HelpViewer/releases/tag/20260310
 [CHANGELOG]: https://github.com/HelpViewer/HelpViewer/blob/master/CHANGELOG.md
