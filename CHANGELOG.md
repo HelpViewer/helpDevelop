@@ -1,5 +1,10 @@
 # Changelog
 
+## 20260310
+- update in repositories list and its description
+- milestones : updated for last ones and steganography security improvement mentions
+- TOC tree : plugin PluginChromeHelpViewer link added
+
 ## 20260216
 - typography : admonitions used chapter texts
 - techstack : DOMPurify mentioned
