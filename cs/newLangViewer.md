@@ -26,7 +26,7 @@ var _lstr = {
 
 ### lstr.txt
 
-```
+```text
 klic(id html prvku)|hodnota
 klic(id html prvku)__placeholder|popisek vstupního pole
 klic(id html prvku)__aria-label|popisek pro přístupnost

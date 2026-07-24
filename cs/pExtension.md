@@ -21,7 +21,7 @@ Například:
 2. Implementace je velmi různorodá podle prvku, který bude rozšiřovat. Postupujte podle kapitoly 🧩 [první plugin][firstPlugin]
 3. Nový plugin musí být zaveden do 📄 [seznamu pluginů][pluginslst] například takto:
 
-```
+```text
 pExtensionMarked
 pExtensionMarkedAdmonitions:
 ```

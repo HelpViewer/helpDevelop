@@ -26,7 +26,7 @@ var _lstr = {
 
 ### lstr.txt
 
-```
+```text
 key(html element id)|value
 key(html element id)__placeholder|input field title before entering it by cursor
 key(html element id)__aria-label|accessibility text

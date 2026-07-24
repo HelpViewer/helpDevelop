@@ -47,7 +47,7 @@ Plugins.catalogize(pExportNEW);
 
 3. Nový plugin musí být zaveden do 📄 [seznamu pluginů][pluginslst] :
 
-```
+```text
 pExportNEW:NEW
 ```
 

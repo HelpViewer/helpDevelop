@@ -47,7 +47,7 @@ Plugins.catalogize(pExportNEW);
 
 3. The new plugin must be added to the 📄 [list of plugins][pluginslst]:
 
-```
+```text
 pExportNEW:NEW
 ```
 
