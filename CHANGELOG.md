@@ -1,5 +1,8 @@
 # Changelog
 
+## 20260725
+- Code examples format defined/changed according to latest pTRParsePrism logic changes
+
 ## 20260310
 - update in repositories list and its description
 - milestones : updated for last ones and steganography security improvement mentions
