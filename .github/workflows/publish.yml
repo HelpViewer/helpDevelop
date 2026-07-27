@@ -147,6 +147,7 @@ jobs:
           tag_name: ${{ steps.newtag.outputs.tag }}
           release_name: ${{ steps.newtag.outputs.tag }}
           body: ${{ steps.newtag.outputs.body }}
+          draft: true
         env:
           GITHUB_TOKEN: ${{ secrets._TOKEN }}
 
@@ -168,3 +169,11 @@ jobs:
             rm _config.txt
             gh release upload "$TAG" "$file" --repo "$REPO" --clobber
           done
+
+      - name: Publish release
+        if: steps.pub.outputs.exists == 'true'
+        uses: eregon/publish-release@v1
+        with:
+          release_id: ${{ steps.crelease.outputs.id }}
+        env:
+          GITHUB_TOKEN: ${{ secrets._TOKEN }}
