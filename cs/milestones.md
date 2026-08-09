@@ -23,6 +23,7 @@
 | [20260209][20260209] | 📢 Vyznačené informační bloky, 📥 Podpora pro export textu do RTF 1.5 / Word 97 |
 | [20260216-1][20260216-1] | 🛡️📦 Knihovna DOMPurify (vylepšená ochrana proti XSS útokům) integrována jako volitelná komponenta třetí strany |
 | [20260310][20260310] | ❔ Plugin pro prohlížece s jádrem Chromium doplňující akci Co je zde? Zabezpečení proti Unicode steganografii vylepšeno |
+| [20260727][20260727] | 📦💾 Distribuční balíček prevýšil kapacitu jedné diskety (růst ve velikosti balíčků třetích stran) |
 
 [20250524]: https://github.com/HelpViewer/HelpViewer/commit/b28cf0a59edb38fa9f4f0ba6964dc460c7fb3718
 [20250603]: https://github.com/HelpViewer/HelpViewer/releases/tag/20250603-1
@@ -43,4 +44,5 @@
 [20260209]: https://github.com/HelpViewer/HelpViewer/releases/tag/20260209
 [20260216-1]: https://github.com/HelpViewer/HelpViewer/releases/tag/20260216-1
 [20260310]: https://github.com/HelpViewer/HelpViewer/releases/tag/20260310
+[20260727]: https://github.com/HelpViewer/HelpViewer/releases/tag/20260727
 [CHANGELOG]: https://github.com/HelpViewer/HelpViewer/blob/master/CHANGELOG.md
